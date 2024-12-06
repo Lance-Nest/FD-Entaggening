@@ -1,0 +1,19 @@
+{
+	"values": { 
+		[
+			"extradelight:apple_cookie_dough",
+			"extradelight:chocolate_chip_cookie_dough",
+			"extradelight:gingerbread_cookie_dough",
+			"extradelight:glow_berry_cookie_dough",
+			"extradelight:honey_cookie_dough",
+			"extradelight:pumpkin_cookie_dough",
+			"extradelight:sugar_cookie_dough",
+			"extradelight:sweet_berry_cookie_dough",
+			"festive_delight:gingerbread_cookie_dough_creeper",
+			"festive_delight:gingerbread_dough",
+			"festive_delight:gingerbread_man_dough",
+			"festive_delight:snow_bread_cookie_dough",
+			"festive_delight:sword_bread_cookie_dough"
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"values": { 
+		[
+			"brewinandchewin:ham_and_cheese_sandwich",
+			"culturaldelights:mutton_sandwich",
+			"delightful:nut_butter_and_jelly_sandwich",
+			"endersdelight:crawling_sandwich",
+			"extradelight:bacon_egg_cheese_sandwich",
+			"extradelight:bacon_egg_sandwich",
+			"extradelight:bbq_shredded_chicken_sandwich",
+			"extradelight:cheese_sandwich",
+			"extradelight:chicken_salad_sandwich",
+			"extradelight:croque_madame",
+			"extradelight:croque_monsieur",
+			"extradelight:egg_salad_sandwich",
+			"extradelight:fish_salad_sandwich",
+			"extradelight:grilled_cheese",
+			"extradelight:meatloaf_sandwich",
+			"extradelight:pork_tenderloin_sandwich",
+			"extradelight:pulled_pork_sandwich",
+			"extradelight:sausage_roll",
+			"farmersdelight:bacon_sandwich",
+			"farmersdelight:chicken_sandwich",
+			"farmersdelight:egg_sandwich",
+			"fastfooddelight:chicken_cheese_sandwich",
+			"fastfooddelight:cod_sandwich",
+			"fastfooddelight:croque_monsieur",
+			"fastfooddelight:pork_sandwich",
+			"fastfooddelight:rabbit_sandwich",
+			"fastfooddelight:salmon_sandwich",
+			"fruitsdelight:jelly_bread",
+			"hostiledelight:guardiansandwich",
+			"hostiledelight:turtleeggsandwich",
+			"italian_delight:mozzarella_panini",
+			"seeddelight:cherry_jam_sandwich",
+			"seeddelight:rosehip_jam_sandwich",
+			"sweetdelight:honey_sandwich"
+		]
+	}
+}
