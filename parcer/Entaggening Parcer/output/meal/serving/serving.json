@@ -1,0 +1,43 @@
+{
+	"values": { 
+		[
+			"casualness_delight:bowl_of_fried_dumpling",
+			"casualness_delight:bowl_of_paper_wrapped_fish",
+			"casualness_delight:plate_of_fried_dumpling",
+			"corn_delight:nachos_bowl",
+			"corn_delight:popcorn",
+			"extradelight:bbq_ribs",
+			"extradelight:bbq_shredded_chicken",
+			"extradelight:beef_wellington",
+			"extradelight:charcuterie_board",
+			"extradelight:chicken_stew",
+			"extradelight:corn_pudding",
+			"extradelight:curry",
+			"extradelight:goat_stew",
+			"extradelight:haggis",
+			"extradelight:hash",
+			"extradelight:hotdish",
+			"extradelight:lamb_stew",
+			"extradelight:lasanga",
+			"extradelight:mac_cheese_hot_dog",
+			"extradelight:macaroni_cheese",
+			"extradelight:mint_lamb",
+			"extradelight:pork_stew",
+			"extradelight:potato_au_gratin",
+			"extradelight:potroast",
+			"extradelight:rack_lamb",
+			"extradelight:salad",
+			"extradelight:salisbury_steak",
+			"extradelight:stirfry",
+			"extradelight:stuffing",
+			"farmersdelight:honey_glazed_ham",
+			"farmersdelight:roast_chicken",
+			"farmersdelight:shepherds_pie",
+			"farmersdelight:stuffed_pumpkin",
+			"festive_delight:festive_chiken",
+			"fruittrees:lemon_roast_chicken",
+			"oceanic_delight:bowl_of_paella",
+			"oceanic_delight:plate_of_stuffed_pufferfish"
+		]
+	}
+}

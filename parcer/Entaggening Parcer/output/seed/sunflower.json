@@ -1,7 +1,8 @@
 {
 	"values": { 
 		[
-			"seeddelight:fried_sunflower_seed"
+			"extradelight:sunflower_seeds",
+			"seeddelight:sunflower_seed"
 		]
 	}
 }

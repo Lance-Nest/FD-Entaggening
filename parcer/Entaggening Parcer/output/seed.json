@@ -27,9 +27,6 @@
 			"rusticdelight:bell_pepper_seeds",
 			"rusticdelight:cotton_seeds",
 			"seeddelight:acorn",
-			"seeddelight:dried_pumpkin_seed",
-			"seeddelight:dried_watermelon_seed",
-			"seeddelight:fried_sunflower_seed",
 			"seeddelight:pinecone",
 			"seeddelight:sunflower_seed",
 			"tofucraft:apricotseed",
@@ -38,7 +35,6 @@
 			"tofucraft:seeds_soybeans",
 			"tofucraft:seeds_soybeans_nether",
 			"tofucraft:seeds_soybeans_soul",
-			"tofucraft:soybeans_parched",
 			"vegetablesdelight:cucumber_seeds"
 		]
 	}

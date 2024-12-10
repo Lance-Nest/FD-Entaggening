@@ -1,0 +1,30 @@
+{
+	"values": { 
+		[
+			"casualness_delight:stargazy_pie",
+			"casualness_delight:stargazy_pie_slice",
+			"collectorsreap:lime_pie_slice",
+			"delightful:blueberry_pie_slice",
+			"delightful:crimson_berry_pie_slice",
+			"delightful:gloomgourd_pie_slice",
+			"delightful:green_apple_pie_slice",
+			"delightful:nightshade_berry_pie_slice",
+			"delightful:pumpkin_pie_slice",
+			"delightful:salmonberry_pie",
+			"delightful:salmonberry_pie_slice",
+			"eggdelight:egg_pie",
+			"eggdelight:egg_pie_slice",
+			"ends_delight:chorus_fruit_pie",
+			"ends_delight:chorus_fruit_pie_slice",
+			"endersdelight:chorus_pie",
+			"endersdelight:chorus_pie_slice",
+			"extradelight:glow_berry_pie",
+			"extradelight:meat_pie_block_item",
+			"extradelight:meat_pie_slice",
+			"farmersdelight:shepherds_pie",
+			"farmersdelight:shepherds_pie_block",
+			"hostiledelight:greenpie",
+			"hostiledelight:rottenpie"
+		]
+	}
+}

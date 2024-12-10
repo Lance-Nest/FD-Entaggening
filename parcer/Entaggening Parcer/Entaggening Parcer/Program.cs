@@ -51,19 +51,19 @@ class tag
         Directory.CreateDirectory(tag.saveDirectory);
         write(category, tag.saveDirectory);
         write(ingredientType, tag.saveDirectory + "/ingredient");
-        write(type, tag.saveDirectory);
-        write(specific, tag.saveDirectory + "/" + type);
-        write(extra, tag.saveDirectory + "/" + type + "/" + specific);
-        write(extra2, tag.saveDirectory + "/" + type + "/" + specific + "/" + extra);
-        write(servingStyle, type, tag.saveDirectory + "/" + servingStyle);
-        write(servingStyle, specific, tag.saveDirectory + "/" + type + "/" + servingStyle);
-        write(servingStyle, extra, tag.saveDirectory + "/" + type + "/" + specific + "/" + servingStyle);
-        write(servingStyle, extra2, tag.saveDirectory + "/" + type + "/" + specific + "/" + extra + "/" + servingStyle);
-        write(cooked, type, tag.saveDirectory + "/" + servingStyle);
-        write(cooked, specific, tag.saveDirectory + "/" + type + "/" + servingStyle);
-        write(cooked, extra, tag.saveDirectory + "/" + type + "/" + specific + "/" + servingStyle);
-        write(cooked, extra2, tag.saveDirectory + "/" + type + "/" + specific + "/" + extra + "/" + servingStyle);
-        write(cooked, servingStyle, tag.saveDirectory + "/" + type + "/" + specific + "/" + servingStyle + "/" + extra + "/" + servingStyle);
+        write(type, tag.saveDirectory + "/" + category);
+        write(specific, tag.saveDirectory + "/" + category + "/" + type);
+        write(extra, tag.saveDirectory + "/" + category + "/" + type + "/" + specific);
+        write(extra2, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + extra);
+        write(servingStyle, type, tag.saveDirectory + "/" + category + "/" + servingStyle);
+        write(servingStyle, specific, tag.saveDirectory + "/" + category + "/" + type + "/" + servingStyle);
+        write(servingStyle, extra, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + servingStyle);
+        write(servingStyle, extra2, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + extra + "/" + servingStyle);
+        write(cooked, type, tag.saveDirectory + "/" + category + "/" + servingStyle);
+        write(cooked, specific, tag.saveDirectory + "/" + category + "/" + type + "/" + servingStyle);
+        write(cooked, extra, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + servingStyle);
+        write(cooked, extra2, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + extra + "/" + servingStyle);
+        write(cooked, servingStyle, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + servingStyle + "/" + extra + "/" + servingStyle);
     }
 
     private void write(string name, string directory)

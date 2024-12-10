@@ -1,0 +1,27 @@
+{
+	"values": { 
+		[
+			"brewinandchewin:flaxen_cheese_wedge",
+			"crabbersdelight:clam",
+			"crabbersdelight:clawster",
+			"crabbersdelight:cooked_clawster",
+			"crabbersdelight:cooked_crab",
+			"crabbersdelight:crab",
+			"culturaldelights:smoked_eggplant",
+			"culturaldelights:smoked_tomato",
+			"culturaldelights:smoked_white_eggplant",
+			"ends_delight:non_hatchable_dragon_egg",
+			"ends_delight:roasted_shulker_meat",
+			"ends_delight:shulker_meat",
+			"italian_delight:raw_dante_special",
+			"italian_delight:raw_diavola",
+			"italian_delight:raw_margherita",
+			"italian_delight:raw_mushroom_pizza",
+			"miners_delight:baked_squid",
+			"miners_delight:glow_squid",
+			"miners_delight:squid",
+			"oceansdelight:guardian",
+			"pineapple_delight:pineapple"
+		]
+	}
+}

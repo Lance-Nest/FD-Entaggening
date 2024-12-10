@@ -32,6 +32,7 @@
 			"butchersdelightfoods:sheeprack",
 			"butchersdelightfoods:sheepshank",
 			"calebs_delight:cooked_ground_beef",
+			"casualness_delight:cooked_donkey_meat",
 			"casualness_delight:raw_chicken_bobo_chicken",
 			"casualness_delight:raw_donkey_meat",
 			"crabbersdelight:clawster",
@@ -124,6 +125,7 @@
 			"rusticdelight:calamari_slice",
 			"rusticdelight:cooked_calamari",
 			"rusticdelight:cooked_calamari_slice",
+			"tofucraft:soymeat",
 			"usadelight:sausages"
 		]
 	}

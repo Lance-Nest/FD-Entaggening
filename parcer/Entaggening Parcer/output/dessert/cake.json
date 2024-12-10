@@ -1,0 +1,22 @@
+{
+	"values": { 
+		[
+			"collectorsreap:lime_cake",
+			"collectorsreap:lime_cake_slice",
+			"collectorsreap:pomegranate_cake",
+			"extradelight:pumpkin_roll",
+			"extradelight:pumpkin_roll_feast",
+			"farmersdelight:cake_slice",
+			"farmersrespite:coffee_cake",
+			"farmersrespite:coffee_cake_slice",
+			"fruittrees:donauwelle",
+			"fruitsdelight:mangosteen_cake",
+			"oceanic_delight:sponge_cake",
+			"oceanic_delight:sponge_cake_slice",
+			"seeddelight:pinenut_cake",
+			"seeddelight:rosehip_cake",
+			"tofucraft:tofucake",
+			"tofucraft:zundatofucake"
+		]
+	}
+}

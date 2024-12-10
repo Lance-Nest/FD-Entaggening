@@ -1,0 +1,28 @@
+{
+	"values": { 
+		[
+			"delightful:source_berry_pie_slice",
+			"extradelight:apple_cheesecake_slice",
+			"extradelight:caramel_cheescake_slice",
+			"extradelight:cheesecake_slice",
+			"extradelight:chocolate_cheesecake_slice",
+			"extradelight:glow_berry_cheesecake_slice",
+			"extradelight:glow_berry_pie_slice",
+			"extradelight:honey_cheesecake_slice",
+			"extradelight:pumpkin_cheesecake_slice",
+			"extradelight:pumpkin_pie_slice",
+			"extradelight:pumpkin_roll",
+			"farmersdelight:apple_pie_slice",
+			"farmersdelight:cake_slice",
+			"farmersdelight:chocolate_pie_slice",
+			"farmersdelight:sweet_berry_cheesecake_slice",
+			"farmersrespite:coffee_cake_slice",
+			"farmersrespite:rose_hip_pie_slice",
+			"italian_delight:pandoro_slice",
+			"italian_delight:panettone_slice",
+			"oceanic_delight:sponge_cake_slice",
+			"pineapple_delight:pineapple_pie_side",
+			"seeddelight:rosehip_pie_slice"
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"values": { 
+		[
+			"casualness_delight:sweet_rice",
+			"collectorsreap:lime_pie",
+			"collectorsreap:pomegranate_cake",
+			"extradelight:jelly_black_block_item",
+			"extradelight:jelly_blue_block_item",
+			"extradelight:jelly_brown_block_item",
+			"extradelight:jelly_cyan_block_item",
+			"extradelight:jelly_green_block_item",
+			"extradelight:jelly_grey_block_item",
+			"extradelight:jelly_light_blue_block_item",
+			"extradelight:jelly_light_grey_block_item",
+			"extradelight:jelly_lime_block_item",
+			"extradelight:jelly_magenta_block_item",
+			"extradelight:jelly_orange_block_item",
+			"extradelight:jelly_pink_block_item",
+			"extradelight:jelly_purple_block_item",
+			"extradelight:jelly_red_block_item",
+			"extradelight:jelly_white_block_item",
+			"extradelight:jelly_yellow_block_item",
+			"extradelight:monkey_bread_feast",
+			"extradelight:pumpkin_cheesecake",
+			"extradelight:pumpkin_pie_item",
+			"extradelight:pumpkin_roll_feast",
+			"extradelight:sweet_berry_pie",
+			"farmersdelight:apple_pie",
+			"farmersdelight:chocolate_pie",
+			"farmersdelight:sweet_berry_cheesecake",
+			"farmersrespite:coffee_cake",
+			"farmersrespite:rose_hip_pie",
+			"fruitsdelight:apple_jello_block",
+			"fruitsdelight:fig_pudding",
+			"italian_delight:pandoro",
+			"italian_delight:panettone",
+			"oceanic_delight:sponge_cake",
+			"pineapple_delight:pineapple_pie",
+			"seeddelight:rosehip_pie",
+			"tofucraft:tofucake"
+		]
+	}
+}
