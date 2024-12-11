@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:melon_seeds"
+  },
+  "result": "seeddelight:dried_watermelon_seed"
+}

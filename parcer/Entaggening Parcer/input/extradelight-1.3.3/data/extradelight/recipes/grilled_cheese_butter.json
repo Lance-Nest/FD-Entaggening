@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "tag": "forge:sandwich_bread"
+    },
+    "c": {
+      "tag": "forge:cheese"
+    },
+    "m": {
+      "tag": "forge:butter"
+    }
+  },
+  "pattern": [
+    " b ",
+    "mc "
+  ],
+  "result": {
+    "item": "extradelight:cheese_sandwich"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "calebs_delight:cooked_tortilla"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    [
+      {
+        "item": "farmersdelight:cooked_chicken_cuts"
+      },
+      {
+        "item": "farmersdelight:cooked_bacon"
+      },
+      {
+        "item": "calebs_delight:cooked_ground_beef"
+      }
+    ]
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 2,
+    "item": "calebs_delight:burrito"
+  }
+}

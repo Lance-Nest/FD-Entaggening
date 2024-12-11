@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "tag": "seeddelight:can_eat_seed"
+    },
+    {
+      "tag": "seeddelight:can_eat_seed"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "seeddelight:roasted_beef_with_seed"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "ingredients": [
+    {
+      "item": "italian_delight:grape_bunch"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:hasting_potion"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "liquid": {
+    "item": "minecraft:water_bucket"
+  },
+  "experience": 0.6,
+  "cookingtime": 12000,
+  "temperature": 3
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "fruitsdelight:durian_flesh"
+  },
+  "result": "fruitsdelight:baked_durian"
+}

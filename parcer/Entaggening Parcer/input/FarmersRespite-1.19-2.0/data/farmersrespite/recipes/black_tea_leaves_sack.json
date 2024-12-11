@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "farmersrespite:black_tea_leaves"
+    }
+  },
+  "pattern": [
+    "lll",
+    "lll",
+    "lll"
+  ],
+  "result": {
+    "item": "farmersrespite:black_tea_leaves_sack"
+  }
+}

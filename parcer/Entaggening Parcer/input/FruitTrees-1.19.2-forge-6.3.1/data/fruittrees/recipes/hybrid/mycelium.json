@@ -1,0 +1,14 @@
+{
+  "type": "fruittrees:hybridizing",
+  "conditions": [
+    {
+      "type": "kiwi:is_loaded",
+      "module": "fruittrees:hybridization"
+    }
+  ],
+  "ingredients": [
+    "blue_orchid",
+    "oxeye_daisy"
+  ],
+  "result": "mycelium"
+}

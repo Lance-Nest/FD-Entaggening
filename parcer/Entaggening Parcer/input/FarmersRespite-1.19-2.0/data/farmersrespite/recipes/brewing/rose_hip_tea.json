@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "rose_hip_tea",
+  "ingredients": [
+    {
+      "item": "farmersrespite:rose_hips"
+    },
+    {
+      "item": "farmersrespite:rose_hips"
+    }
+  ],
+  "needwater": true,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "farmersrespite:rose_hip_tea"
+  }
+}

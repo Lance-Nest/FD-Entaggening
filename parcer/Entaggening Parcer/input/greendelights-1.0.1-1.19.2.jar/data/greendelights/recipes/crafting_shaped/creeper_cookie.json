@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "e": {
+      "tag": "forge:milk"
+    },
+    "i": {
+      "item": "minecraft:wheat"
+    },
+    "m": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "pattern": [
+    "mmm",
+    "iei",
+    "mmm"
+  ],
+  "result": {
+    "count": 8,
+    "item": "greendelights:creeper_cookie"
+  }
+}

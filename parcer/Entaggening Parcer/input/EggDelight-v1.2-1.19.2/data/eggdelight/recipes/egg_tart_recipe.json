@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "eggdelight:egg_tart"
+  }
+}

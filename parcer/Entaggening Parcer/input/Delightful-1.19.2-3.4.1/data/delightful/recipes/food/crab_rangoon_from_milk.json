@@ -1,0 +1,55 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "delightful:enabled",
+              "value": "crab_rangoon"
+            },
+            {
+              "type": "forge:not",
+              "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:cooked_crab"
+              }
+            },
+            {
+              "type": "forge:or",
+              "values": [
+                {
+                  "type": "forge:tag_empty",
+                  "tag": "forge:cheese"
+                },
+                {
+                  "type": "delightful:enabled",
+                  "value": "use_milk_tag"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:dough/wheat"
+          },
+          {
+            "tag": "forge:milk"
+          },
+          {
+            "tag": "forge:cooked_crab"
+          }
+        ],
+        "result": {
+          "item": "delightful:crab_rangoon"
+        }
+      }
+    }
+  ]
+}

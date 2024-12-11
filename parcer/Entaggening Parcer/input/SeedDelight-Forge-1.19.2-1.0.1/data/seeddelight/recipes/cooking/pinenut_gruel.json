@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "seeddelight:pine_nut_kernel"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "seeddelight:pinenut_gruel"
+  }
+}

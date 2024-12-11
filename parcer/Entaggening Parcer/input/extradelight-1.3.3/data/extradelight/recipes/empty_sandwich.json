@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bread/sliced"
+    },
+    {
+      "tag": "forge:bread/sliced"
+    }
+  ],
+  "result": {
+    "item": "extradelight:empty_sandwich"
+  }
+}

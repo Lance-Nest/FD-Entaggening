@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "fruittrees:redlove"
+    }
+  ],
+  "result": {
+    "item": "fruittrees:heart_banner_pattern"
+  }
+}

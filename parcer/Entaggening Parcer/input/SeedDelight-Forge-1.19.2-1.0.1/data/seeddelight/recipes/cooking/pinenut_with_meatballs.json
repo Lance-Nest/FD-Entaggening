@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "seeddelight:pine_nut_kernel"
+    },
+    {
+      "item": "seeddelight:pine_nut_kernel"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "seeddelight:pinenut_with_meatballs"
+  }
+}

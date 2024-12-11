@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hostiledelight:friedturtleegg"
+    },
+    {
+      "item": "hostiledelight:friedturtleegg"
+    },
+    {
+      "item": "hostiledelight:cookedrottenham"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:suspiciousbaconandaggs",
+    "count": 1
+  }
+}

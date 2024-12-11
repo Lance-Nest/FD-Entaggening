@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "oceanic_delight:wild_sea_grape"
+    }
+  ],
+  "result": [
+    {
+      "item": "oceanic_delight:sea_grape"
+    },
+    {
+      "chance": 1,
+      "count": 3,
+      "item": "minecraft:kelp"
+    },
+    {
+      "chance": 0.6,
+      "count": 2,
+      "item": "minecraft:kelp"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "seeddelight:rosehip"
+    },
+    "b": {
+      "tag": "forge:milk"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "seeddelight:rosehip_pie",
+    "count": 1
+  }
+}

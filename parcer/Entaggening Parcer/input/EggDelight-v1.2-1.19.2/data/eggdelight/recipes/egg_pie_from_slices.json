@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "eggdelight:egg_pie_slice"
+    }
+  },
+  "result": {
+    "item": "eggdelight:egg_pie",
+    "count": 1
+  }
+}

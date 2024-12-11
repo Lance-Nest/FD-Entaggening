@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:shrimps"
+    },
+    {
+      "tag": "forge:shrimps"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "item": "minecraft:sunflower"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 4,
+    "item": "oceanic_delight:shrimp_chips"
+  }
+}

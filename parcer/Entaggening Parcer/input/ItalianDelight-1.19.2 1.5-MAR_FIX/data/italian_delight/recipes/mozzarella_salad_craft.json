@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "italian_delight:mozzarella_slices"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:mozzarella_salad",
+    "count": 1
+  }
+}

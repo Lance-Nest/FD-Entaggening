@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:cooked_bacon"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "eggdelight:bacon_and_egg_cup"
+  }
+}

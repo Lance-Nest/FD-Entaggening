@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "hostiledelight:guardianfillet"
+    },
+    {
+      "item": "hostiledelight:guardianfillet"
+    },
+    {
+      "item": "minecraft:seagrass"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:guardiansashimi",
+    "count": 1
+  }
+}

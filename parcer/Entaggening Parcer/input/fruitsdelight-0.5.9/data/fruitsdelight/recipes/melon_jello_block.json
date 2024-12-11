@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:melon_jello"
+    },
+    {
+      "item": "fruitsdelight:melon_jello"
+    },
+    {
+      "item": "fruitsdelight:melon_jello"
+    },
+    {
+      "item": "fruitsdelight:melon_jello"
+    },
+    {
+      "item": "fruitsdelight:melon_jello"
+    },
+    {
+      "item": "fruitsdelight:melon_jello"
+    },
+    {
+      "item": "fruitsdelight:melon_jello"
+    },
+    {
+      "item": "fruitsdelight:melon_jello"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:melon_jello_block"
+  }
+}

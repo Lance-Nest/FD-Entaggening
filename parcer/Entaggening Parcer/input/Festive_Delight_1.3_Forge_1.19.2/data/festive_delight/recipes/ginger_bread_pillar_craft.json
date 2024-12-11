@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "festive_delight:gingerbread_block_slab"
+    },
+    "1": {
+      "item": "festive_delight:gingerbread_block_slab"
+    }
+  },
+  "result": {
+    "item": "festive_delight:gingerbread_pillar",
+    "count": 1
+  }
+}

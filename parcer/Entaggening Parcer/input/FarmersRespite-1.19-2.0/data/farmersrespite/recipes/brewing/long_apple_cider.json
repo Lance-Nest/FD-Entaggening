@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "apple_cider",
+  "ingredients": [
+    {
+      "item": "farmersdelight:apple_cider"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "needwater": false,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "farmersrespite:long_apple_cider"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hostiledelight:glowingsauce"
+    },
+    {
+      "item": "hostiledelight:glowingsauce"
+    },
+    {
+      "item": "hostiledelight:candiedslime"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:glowgummy",
+    "count": 2
+  }
+}

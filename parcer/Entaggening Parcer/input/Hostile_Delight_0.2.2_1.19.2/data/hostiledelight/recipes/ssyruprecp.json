@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hostiledelight:candiedslime"
+    },
+    {
+      "item": "hostiledelight:candiedslime"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:silmesyrup",
+    "count": 1
+  }
+}

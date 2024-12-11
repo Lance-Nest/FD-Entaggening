@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:salmon_slice"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:fern"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "festive_delight:salmon_verrines"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  }
+}

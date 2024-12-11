@@ -97,6 +97,7 @@ class tag
             }
         }
     }
+
 }
 
 class Program
@@ -104,27 +105,91 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Starting");
+        Console.WriteLine("Do Tags? (y/n)");
 
-        List<tag> tags = File.ReadAllLines("../../../../tags.csv").Skip(9).Select(t => tag.parceTag(t)).ToList();
-
-        DirectoryInfo dir = new DirectoryInfo(tag.saveDirectory);
-        dir.Delete(true);
-
-        foreach (tag t in tags)
+        if (Console.ReadLine() == "y")
         {
-            t.save();
+            List<tag> tags = File.ReadAllLines("../../../../tags.csv").Skip(9).Select(t => tag.parceTag(t)).ToList();
+
+            DirectoryInfo dir = new DirectoryInfo(tag.saveDirectory);
+            dir.Delete(true);
+
+            foreach (tag t in tags)
+            {
+                t.save();
+            }
+
+            //finalize all json
+            string[] files = Directory.GetFiles(tag.saveDirectory, "*.json", SearchOption.AllDirectories);
+
+            foreach (string file in files)
+            {
+                using (StreamWriter outputFile = new StreamWriter(file, true))
+                {
+                    outputFile.WriteLine("\n\t\t]");
+                    outputFile.WriteLine("\t}");
+                    outputFile.WriteLine('}');
+                }
+            }
         }
 
-        //finalize all json
-        string[] files = Directory.GetFiles(tag.saveDirectory, "*.json", SearchOption.AllDirectories);
+        Console.WriteLine("Do Recipes? (y/n)");
 
-        foreach (string file in files)
+        if (Console.ReadLine() == "y")
         {
-            using (StreamWriter outputFile = new StreamWriter(file, true))
+            string[] directories = Directory.GetDirectories("../../../../input");
+
+            foreach (string directory in directories)
             {
-                outputFile.WriteLine("\n\t\t]");
-                outputFile.WriteLine("\t}");
-                outputFile.WriteLine('}');
+                Console.WriteLine(directory);
+
+                foreach(string f in Directory.GetFiles(directory))
+                {
+                    Console.WriteLine(f);
+                    if (f != directory + "/data")
+                    {
+                        File.Delete(f);
+                    }
+                }
+
+                foreach (string f in Directory.GetDirectories(directory))
+                {
+                    Console.WriteLine(f);
+                    if (f != directory + "\\data")
+                    {
+                        Directory.Delete(f, true);
+                    }
+                }
+
+
+                if (Directory.Exists(directory + "/data"))
+                {
+                    foreach (string mod in Directory.GetDirectories(directory + "/data"))
+                    {
+                        if (Directory.Exists(mod + "/recipes"))
+                        {
+                            foreach (string f in Directory.GetDirectories(mod))
+                            {
+                                Console.WriteLine(f);
+                                if (f != mod + "\\recipes")
+                                {
+                                    Directory.Delete(f, true);
+                                }
+                            }
+
+                            Console.WriteLine("\t" + mod);
+                            string[] recipes = Directory.GetFiles(mod + "/recipes");
+                        }
+                        else
+                        {
+                            Directory.Delete(mod, true);
+                        }
+                    }
+                }
+                else
+                {
+                    Directory.Delete(directory, true);
+                }
             }
         }
     }

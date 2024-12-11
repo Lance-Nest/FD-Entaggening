@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "minecraft:ender_pearl"
+    },
+    "3": {
+      "item": "minecraft:ice"
+    },
+    "4": {
+      "item": "minecraft:ender_pearl"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "hostiledelight:enderpop",
+    "count": 1
+  }
+}

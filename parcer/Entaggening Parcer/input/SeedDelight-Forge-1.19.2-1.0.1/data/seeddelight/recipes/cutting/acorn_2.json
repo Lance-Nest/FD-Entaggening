@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_sapling"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "seeddelight:acorn"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

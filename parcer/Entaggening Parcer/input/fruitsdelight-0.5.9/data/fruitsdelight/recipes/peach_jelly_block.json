@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:peach_jelly"
+    },
+    {
+      "item": "fruitsdelight:peach_jelly"
+    },
+    {
+      "item": "fruitsdelight:peach_jelly"
+    },
+    {
+      "item": "fruitsdelight:peach_jelly"
+    },
+    {
+      "item": "fruitsdelight:peach_jelly"
+    },
+    {
+      "item": "fruitsdelight:peach_jelly"
+    },
+    {
+      "item": "fruitsdelight:peach_jelly"
+    },
+    {
+      "item": "fruitsdelight:peach_jelly"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:peach_jelly_block"
+  }
+}

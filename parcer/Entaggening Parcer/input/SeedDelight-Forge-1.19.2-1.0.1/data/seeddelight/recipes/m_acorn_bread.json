@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    }
+  ],
+  "result": {
+    "item": "seeddelight:acorn_bread",
+    "count": 1
+  }
+}

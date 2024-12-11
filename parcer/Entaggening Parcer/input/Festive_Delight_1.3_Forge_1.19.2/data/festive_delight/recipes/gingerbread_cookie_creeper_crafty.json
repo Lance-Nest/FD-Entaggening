@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "festive_delight:gingerbread_cookie_dough_creeper"
+  },
+  "result": "festive_delight:gingerbread_cookie_creeper"
+}

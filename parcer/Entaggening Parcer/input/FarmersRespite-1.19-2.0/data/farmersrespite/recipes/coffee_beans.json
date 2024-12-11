@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersrespite:coffee_beans_sack"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "farmersrespite:coffee_beans"
+  }
+}

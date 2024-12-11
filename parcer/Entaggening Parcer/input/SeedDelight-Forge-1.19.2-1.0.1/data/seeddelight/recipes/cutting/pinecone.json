@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_sapling"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "seeddelight:pinecone"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

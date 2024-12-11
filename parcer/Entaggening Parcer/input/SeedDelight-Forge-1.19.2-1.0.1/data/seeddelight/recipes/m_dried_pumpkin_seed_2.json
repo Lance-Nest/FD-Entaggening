@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 0.2,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "minecraft:pumpkin_seeds"
+  },
+  "result": "seeddelight:dried_pumpkin_seed"
+}

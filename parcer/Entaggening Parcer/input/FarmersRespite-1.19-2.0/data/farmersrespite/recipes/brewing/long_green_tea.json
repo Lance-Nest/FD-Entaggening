@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "green_tea",
+  "ingredients": [
+    {
+      "item": "farmersrespite:green_tea"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "needwater": false,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "farmersrespite:long_green_tea"
+  }
+}

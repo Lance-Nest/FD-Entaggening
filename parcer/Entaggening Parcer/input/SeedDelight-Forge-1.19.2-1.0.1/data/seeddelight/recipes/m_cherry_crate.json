@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry"
+    }
+  ],
+  "result": {
+    "item": "seeddelight:cherry_crate",
+    "count": 1
+  }
+}

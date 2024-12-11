@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 0.2,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "minecraft:melon_seeds"
+  },
+  "result": "seeddelight:dried_watermelon_seed"
+}

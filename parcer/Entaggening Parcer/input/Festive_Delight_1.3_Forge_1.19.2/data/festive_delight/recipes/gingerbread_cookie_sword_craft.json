@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "festive_delight:gingerbread_cookie_base_sword"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "festive_delight:gingerbread_cookie_sword",
+    "count": 1
+  }
+}

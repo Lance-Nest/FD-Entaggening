@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "hostiledelight:guardianfillet"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "hostiledelight:guardianpatty"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

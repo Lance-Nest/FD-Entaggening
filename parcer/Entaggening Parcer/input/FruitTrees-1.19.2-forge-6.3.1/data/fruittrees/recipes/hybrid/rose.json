@@ -1,0 +1,14 @@
+{
+  "type": "fruittrees:hybridizing",
+  "conditions": [
+    {
+      "type": "kiwi:is_loaded",
+      "module": "fruittrees:hybridization"
+    }
+  ],
+  "ingredients": [
+    "fruittrees:apple_leaves",
+    "poppy"
+  ],
+  "result": "rose_bush"
+}

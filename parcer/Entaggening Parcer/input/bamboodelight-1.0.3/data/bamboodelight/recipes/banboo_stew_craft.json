@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:bowl"
+    },
+    "Q": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "pattern": [
+    "#Q ",
+    "Q  ",
+    "   "
+  ],
+  "result": {
+    "item": "bamboodelight:bamboo_stew"
+  },
+  "show_notification": true
+}

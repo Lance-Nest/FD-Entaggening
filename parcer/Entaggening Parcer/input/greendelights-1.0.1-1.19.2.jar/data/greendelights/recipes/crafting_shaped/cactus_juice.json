@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "e": {
+      "item": "minecraft:cactus"
+    },
+    "m": {
+      "item": "greendelights:cactus_peeled"
+    }
+  },
+  "pattern": [
+    "mmm",
+    "mem",
+    "mmm"
+  ],
+  "result": {
+    "item": "greendelights:cactus_juice"
+  }
+}

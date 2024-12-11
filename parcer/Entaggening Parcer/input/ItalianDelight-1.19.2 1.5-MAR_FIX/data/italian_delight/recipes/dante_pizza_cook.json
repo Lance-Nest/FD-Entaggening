@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 350,
+  "ingredient": {
+    "item": "italian_delight:raw_dante_special"
+  },
+  "result": "italian_delight:dantes_spacial"
+}

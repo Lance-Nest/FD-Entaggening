@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "-": {
+      "item": "minecraft:stick"
+    },
+    "i": {
+      "item": "minecraft:ice"
+    },
+    "m": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "  m",
+    "im ",
+    "-i "
+  ],
+  "result": {
+    "item": "greendelights:slime_popsicle"
+  }
+}

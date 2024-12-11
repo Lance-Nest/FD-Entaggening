@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "minecraft:bread"
+    },
+    "W": {
+      "tag": "forge:milk"
+    },
+    "E": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "QW ",
+    "E  ",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "brazildelight:brazilian_cheese_bread"
+  }
+}

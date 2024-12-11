@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "miners_delight:tentacles"
+  },
+  "result": "miners_delight:baked_tentacles"
+}

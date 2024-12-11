@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "purulent_tea",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "needwater": true,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "farmersrespite:purulent_tea"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "greendelights:cactus_dried"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "greendelights:cactus_dried"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "greendelights:cactus_stick"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "item": "minecraft:sea_pickle"
+    },
+    "m": {
+      "item": "minecraft:kelp"
+    },
+    "e": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "pattern": [
+    "iii",
+    "mmm",
+    " e "
+  ],
+  "result": {
+    "count": 1,
+    "item": "greendelights:sea_salad"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tofucraft:edamame_boild"
+    },
+    {
+      "item": "tofucraft:edamame_boild"
+    },
+    {
+      "item": "tofucraft:edamame_boild"
+    },
+    {
+      "item": "tofucraft:edamame_boild"
+    },
+    {
+      "item": "tofucraft:edamame_boild"
+    },
+    {
+      "item": "tofucraft:edamame_boild"
+    },
+    {
+      "item": "tofucraft:edamame_boild"
+    },
+    {
+      "item": "tofucraft:edamame_boild"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tofucraft:zunda"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "Q": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    " Q ",
+    "QEQ",
+    " W "
+  ],
+  "result": {
+    "item": "sweetdelight:sweet_berries_lolipop"
+  },
+  "show_notification": true
+}

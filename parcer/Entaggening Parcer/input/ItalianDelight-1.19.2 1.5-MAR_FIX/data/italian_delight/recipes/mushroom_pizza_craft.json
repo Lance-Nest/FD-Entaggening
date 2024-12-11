@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "italian_delight:mushroom_pizza"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "italian_delight:mushroom_pizza_slice",
+      "count": 4
+    }
+  ]
+}

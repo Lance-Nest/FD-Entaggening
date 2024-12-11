@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:lychee_crate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "fruitsdelight:lychee"
+  }
+}

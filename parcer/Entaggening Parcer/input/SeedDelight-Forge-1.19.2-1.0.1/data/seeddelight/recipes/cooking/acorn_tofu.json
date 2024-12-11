@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "seeddelight:acorn_kernel"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "seeddelight:acorn_tofu"
+  }
+}

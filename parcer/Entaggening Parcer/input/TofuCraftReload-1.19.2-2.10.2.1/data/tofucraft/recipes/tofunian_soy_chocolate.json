@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tofucraft:bucket_soymilk"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "tofucraft:leek"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "tofucraft:tofunian_soy_chocolate"
+  }
+}

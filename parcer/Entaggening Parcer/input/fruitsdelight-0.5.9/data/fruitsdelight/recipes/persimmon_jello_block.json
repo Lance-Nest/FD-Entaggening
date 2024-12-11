@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:persimmon_jello"
+    },
+    {
+      "item": "fruitsdelight:persimmon_jello"
+    },
+    {
+      "item": "fruitsdelight:persimmon_jello"
+    },
+    {
+      "item": "fruitsdelight:persimmon_jello"
+    },
+    {
+      "item": "fruitsdelight:persimmon_jello"
+    },
+    {
+      "item": "fruitsdelight:persimmon_jello"
+    },
+    {
+      "item": "fruitsdelight:persimmon_jello"
+    },
+    {
+      "item": "fruitsdelight:persimmon_jello"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:persimmon_jello_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 3,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": "italian_delight:mozzarella"
+}

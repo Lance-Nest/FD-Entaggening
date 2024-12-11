@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 500,
+  "ingredient": {
+    "item": "butchersdelightfoods:goatrack"
+  },
+  "result": "butchersdelightfoods:cooked_goat_rack"
+}

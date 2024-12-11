@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "seeddelight:acorn_tofu"
+    }
+  ],
+  "result": [
+    {
+      "item": "seeddelight:raw_acorn_noodle"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
