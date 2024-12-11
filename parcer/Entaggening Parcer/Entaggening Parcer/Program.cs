@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 class tag
 {
-    public static string saveDirectory = "../../../../output/";
+    public static string saveDirectory = "..\\..\\..\\..\\output\\";
 
     string modName;
     string registryName;
@@ -24,6 +24,8 @@ class tag
     bool containsGrain;
     bool containsFruit;
     string output;
+
+    List<string> tags = new List<string>();
 
     public static tag parceTag(string tagIn)
     {
@@ -47,23 +49,36 @@ class tag
 
     public void save()
     {
-        Console.WriteLine(itemID);
+        Console.WriteLine("====================================================================================");
+        Console.WriteLine(registryName);
+        Console.WriteLine("====================================================================================");
+
+        Console.WriteLine("Edited Files:");
         Directory.CreateDirectory(tag.saveDirectory);
         write(category, tag.saveDirectory);
-        write(ingredientType, tag.saveDirectory + "/ingredient");
-        write(type, tag.saveDirectory + "/" + category);
-        write(specific, tag.saveDirectory + "/" + category + "/" + type);
-        write(extra, tag.saveDirectory + "/" + category + "/" + type + "/" + specific);
-        write(extra2, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + extra);
-        write(servingStyle, type, tag.saveDirectory + "/" + category + "/" + servingStyle);
-        write(servingStyle, specific, tag.saveDirectory + "/" + category + "/" + type + "/" + servingStyle);
-        write(servingStyle, extra, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + servingStyle);
-        write(servingStyle, extra2, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + extra + "/" + servingStyle);
-        write(cooked, type, tag.saveDirectory + "/" + category + "/" + servingStyle);
-        write(cooked, specific, tag.saveDirectory + "/" + category + "/" + type + "/" + servingStyle);
-        write(cooked, extra, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + servingStyle);
-        write(cooked, extra2, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + extra + "/" + servingStyle);
-        write(cooked, servingStyle, tag.saveDirectory + "/" + category + "/" + type + "/" + specific + "/" + servingStyle + "/" + extra + "/" + servingStyle);
+        write(ingredientType, tag.saveDirectory + "\\ingredient");
+        write(type, tag.saveDirectory + "\\" + category);
+        write(specific, tag.saveDirectory + "\\" + category + "\\" + type);
+        write(extra, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific);
+        write(extra2, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + extra);
+        write(servingStyle, type, tag.saveDirectory + "\\" + category + "\\" + servingStyle);
+        write(servingStyle, specific, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + servingStyle);
+        write(servingStyle, extra, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + servingStyle);
+        write(servingStyle, extra2, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
+        write(cooked, type, tag.saveDirectory + "\\" + category + "\\" + servingStyle);
+        write(cooked, specific, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + servingStyle);
+        write(cooked, extra, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + servingStyle);
+        write(cooked, extra2, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
+        write(cooked, servingStyle, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + servingStyle + "\\" + extra + "\\" + servingStyle);
+
+        Console.WriteLine();
+
+        Console.WriteLine("Tags:");
+        foreach (string s in tags)
+            Console.WriteLine("\t"+s);
+
+        Console.WriteLine("====================================================================================");
+        Console.WriteLine();
     }
 
     private void write(string name, string directory)
@@ -94,6 +109,8 @@ class tag
                     outputFile.Close();
                     Console.WriteLine("\t" + path);
                 }
+
+                this.tags.Add(directory.Substring(directory.IndexOf(tag.saveDirectory) + tag.saveDirectory.Length) + "\\" + name);
             }
         }
     }
@@ -105,11 +122,11 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Starting");
-        Console.WriteLine("Do Tags? (y/n)");
+        Console.WriteLine("Do Tags? (y\\n)");
 
         if (Console.ReadLine() == "y")
         {
-            List<tag> tags = File.ReadAllLines("../../../../tags.csv").Skip(9).Select(t => tag.parceTag(t)).ToList();
+            List<tag> tags = File.ReadAllLines("..\\..\\..\\..\\tags.csv").Skip(9).Select(t => tag.parceTag(t)).ToList();
 
             DirectoryInfo dir = new DirectoryInfo(tag.saveDirectory);
             dir.Delete(true);
@@ -133,11 +150,11 @@ class Program
             }
         }
 
-        Console.WriteLine("Do Recipes? (y/n)");
+        Console.WriteLine("Do Recipes? (y\\n)");
 
         if (Console.ReadLine() == "y")
         {
-            string[] directories = Directory.GetDirectories("../../../../input");
+            string[] directories = Directory.GetDirectories("..\\..\\..\\..\\input");
 
             foreach (string directory in directories)
             {
@@ -146,7 +163,7 @@ class Program
                 foreach(string f in Directory.GetFiles(directory))
                 {
                     Console.WriteLine(f);
-                    if (f != directory + "/data")
+                    if (f != directory + "\\data")
                     {
                         File.Delete(f);
                     }
@@ -162,11 +179,11 @@ class Program
                 }
 
 
-                if (Directory.Exists(directory + "/data"))
+                if (Directory.Exists(directory + "\\data"))
                 {
-                    foreach (string mod in Directory.GetDirectories(directory + "/data"))
+                    foreach (string mod in Directory.GetDirectories(directory + "\\data"))
                     {
-                        if (Directory.Exists(mod + "/recipes"))
+                        if (Directory.Exists(mod + "\\recipes"))
                         {
                             foreach (string f in Directory.GetDirectories(mod))
                             {
@@ -178,7 +195,7 @@ class Program
                             }
 
                             Console.WriteLine("\t" + mod);
-                            string[] recipes = Directory.GetFiles(mod + "/recipes");
+                            string[] recipes = Directory.GetFiles(mod + "\\recipes");
                         }
                         else
                         {
