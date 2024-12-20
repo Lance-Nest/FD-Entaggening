@@ -1,0 +1,19 @@
+{
+	"values":  
+		[
+			"eggdelight:boiled_egg",
+			"eggdelight:peeled_boiled_egg",
+			"eggdelight:scrambled_egg",
+			"eggdelight:sliced_boiled_egg",
+			"ends_delight:fried_dragon_egg",
+			"ends_delight:liquid_dragon_egg",
+			"ends_delight:non_hatchable_dragon_egg",
+			"extradelight:boiled_egg",
+			"extradelight:scrambled_eggs",
+			"farmersdelight:fried_egg",
+			"hostiledelight:friedturtleegg",
+			"miners_delight:silverfish_eggs",
+			"oceanic_delight:ancient_fish_eggs",
+			"tofucraft:tofuegg"
+		]
+}

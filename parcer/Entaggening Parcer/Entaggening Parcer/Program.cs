@@ -2,10 +2,12 @@
 
 using System.IO;
 using System.Xml.Linq;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
-class tag
+class Tag
 {
-    public static string saveDirectory = "..\\..\\..\\..\\output\\";
+    public static string saveDirectory = "..\\..\\..\\..\\output\\data\\forge\\tags\\items\\";
 
     string modName;
     string registryName;
@@ -18,19 +20,13 @@ class tag
     string extra2;
     string servingStyle;
     string cooked;
-    bool containsMeat;
-    bool containsVeg;
-    bool containsAnimalProduct;
-    bool containsGrain;
-    bool containsFruit;
-    string output;
 
     List<string> tags = new List<string>();
 
-    public static tag parceTag(string tagIn)
+    public static Tag parceTag(string tagIn)
     {
         string[] values = tagIn.Split(',');
-        tag t = new tag();
+        Tag t = new Tag();
 
         t.modName = values[0];
         t.registryName = values[1];
@@ -43,7 +39,6 @@ class tag
         t.extra2 = values[8];
         t.servingStyle = values[9];
         t.cooked = values[10];
-        t.output = values[11];
         return t;
     }
 
@@ -54,22 +49,22 @@ class tag
         Console.WriteLine("====================================================================================");
 
         Console.WriteLine("Edited Files:");
-        Directory.CreateDirectory(tag.saveDirectory);
-        write(category, tag.saveDirectory);
-        write(ingredientType, tag.saveDirectory + "\\ingredient");
-        write(type, tag.saveDirectory + "\\" + category);
-        write(specific, tag.saveDirectory + "\\" + category + "\\" + type);
-        write(extra, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific);
-        write(extra2, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + extra);
-        write(servingStyle, type, tag.saveDirectory + "\\" + category + "\\" + servingStyle);
-        write(servingStyle, specific, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + servingStyle);
-        write(servingStyle, extra, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + servingStyle);
-        write(servingStyle, extra2, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
-        write(cooked, type, tag.saveDirectory + "\\" + category + "\\" + servingStyle);
-        write(cooked, specific, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + servingStyle);
-        write(cooked, extra, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + servingStyle);
-        write(cooked, extra2, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
-        write(cooked, servingStyle, tag.saveDirectory + "\\" + category + "\\" + type + "\\" + specific + "\\" + servingStyle + "\\" + extra + "\\" + servingStyle);
+        Directory.CreateDirectory(Tag.saveDirectory);
+        write(category, Tag.saveDirectory);
+        write(ingredientType, Tag.saveDirectory);
+        write(type, Tag.saveDirectory);
+        write(specific, Tag.saveDirectory +  "\\" + type);
+        write(extra, Tag.saveDirectory + "\\"  + type + "\\" + specific);
+        write(extra2, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + extra);
+        write(servingStyle, type, Tag.saveDirectory + "\\"  + servingStyle);
+        write(servingStyle, specific, Tag.saveDirectory + "\\"  + type + "\\" + servingStyle);
+        write(servingStyle, extra, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + servingStyle);
+        write(servingStyle, extra2, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
+        write(cooked, type, Tag.saveDirectory + "\\"  + servingStyle);
+        write(cooked, specific, Tag.saveDirectory + "\\"  + type + "\\" + servingStyle);
+        write(cooked, extra, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + servingStyle);
+        write(cooked, extra2, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
+        write(cooked, servingStyle, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + servingStyle + "\\" + extra + "\\" + servingStyle);
 
         Console.WriteLine();
 
@@ -101,7 +96,7 @@ class tag
                 using (StreamWriter outputFile = new StreamWriter(path, true))
                 {
                     if (!exists)
-                        outputFile.Write("{\n\t\"values\": { \n\t\t[\n");
+                        outputFile.Write("{\n\t\"values\":  \n\t\t[\n");
                     else
                         outputFile.Write(",\n");
 
@@ -110,11 +105,51 @@ class tag
                     Console.WriteLine("\t" + path);
                 }
 
-                this.tags.Add(directory.Substring(directory.IndexOf(tag.saveDirectory) + tag.saveDirectory.Length) + "\\" + name);
+                this.tags.Add(directory.Substring(directory.IndexOf(Tag.saveDirectory) + Tag.saveDirectory.Length) + "\\" + name);
             }
         }
     }
 
+}
+
+class Recipe
+{
+    public string location;
+    public Ingredient[]? ingredients { get; set; }
+    public Ingredient? ingredient { get; set; }
+    public Dictionary<string, Ingredient>? key { get; set; } = null;
+
+    public void SetLoc(string loc)
+    {
+        location = loc;
+    }
+
+    public void ToConsole()
+    {
+        Console.WriteLine(location);
+
+        if (ingredients != null)
+            foreach (Ingredient i in ingredients)
+            {
+                Console.WriteLine(i.item);
+            }
+
+        Console.WriteLine(ingredient?.item);
+
+        if (key != null)
+            foreach (KeyValuePair<string, Ingredient> i in key)
+            {
+                if(i.Value != null)
+                    Console.WriteLine(i.Key + ":" + i.Value.item);
+            }
+
+    }
+
+}
+
+class Ingredient
+{
+    public string? item { get; set; } = "";
 }
 
 class Program
@@ -122,92 +157,118 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Starting");
-        Console.WriteLine("Do Tags? (y\\n)");
+        List<Tag> tags = File.ReadAllLines("..\\..\\..\\..\\tags.csv").Skip(9).Select(t => Tag.parceTag(t)).ToList();
+        List<Recipe> recipes = new List<Recipe>();
 
-        if (Console.ReadLine() == "y")
-        {
-            List<tag> tags = File.ReadAllLines("..\\..\\..\\..\\tags.csv").Skip(9).Select(t => tag.parceTag(t)).ToList();
-
-            DirectoryInfo dir = new DirectoryInfo(tag.saveDirectory);
+        DirectoryInfo dir = new DirectoryInfo(Tag.saveDirectory);
+        if (dir.Exists)
             dir.Delete(true);
 
-            foreach (tag t in tags)
-            {
-                t.save();
-            }
-
-            //finalize all json
-            string[] files = Directory.GetFiles(tag.saveDirectory, "*.json", SearchOption.AllDirectories);
-
-            foreach (string file in files)
-            {
-                using (StreamWriter outputFile = new StreamWriter(file, true))
-                {
-                    outputFile.WriteLine("\n\t\t]");
-                    outputFile.WriteLine("\t}");
-                    outputFile.WriteLine('}');
-                }
-            }
+        foreach (Tag t in tags)
+        {
+            t.save();
         }
 
-        Console.WriteLine("Do Recipes? (y\\n)");
+        //finalize all json
+        string[] files = Directory.GetFiles(Tag.saveDirectory, "*.json", SearchOption.AllDirectories);
 
-        if (Console.ReadLine() == "y")
+        foreach (string file in files)
         {
-            string[] directories = Directory.GetDirectories("..\\..\\..\\..\\input");
-
-            foreach (string directory in directories)
+            using (StreamWriter outputFile = new StreamWriter(file, true))
             {
-                Console.WriteLine(directory);
+                outputFile.WriteLine("\n\t\t]");
+                //outputFile.WriteLine("\t}");
+                outputFile.WriteLine('}');
+            }
+        }
+        Console.WriteLine("Recipes Start:");
+        string[] directories = Directory.GetDirectories("..\\..\\..\\..\\input");
 
-                foreach(string f in Directory.GetFiles(directory))
+        //Delete anything not in data
+        cleanupAndGetRecipes(recipes, directories);
+
+        Console.WriteLine("Finish");
+    }
+
+    private static void cleanupAndGetRecipes(List<Recipe> recipes, string[] directories)
+    {
+        foreach (string directory in directories)
+        {
+            Console.WriteLine(directory);
+
+            foreach (string f in Directory.GetFiles(directory))
+            {
+                Console.WriteLine(f);
+                if (f != directory + "\\data")
                 {
-                    Console.WriteLine(f);
-                    if (f != directory + "\\data")
-                    {
-                        File.Delete(f);
-                    }
-                }
-
-                foreach (string f in Directory.GetDirectories(directory))
-                {
-                    Console.WriteLine(f);
-                    if (f != directory + "\\data")
-                    {
-                        Directory.Delete(f, true);
-                    }
-                }
-
-
-                if (Directory.Exists(directory + "\\data"))
-                {
-                    foreach (string mod in Directory.GetDirectories(directory + "\\data"))
-                    {
-                        if (Directory.Exists(mod + "\\recipes"))
-                        {
-                            foreach (string f in Directory.GetDirectories(mod))
-                            {
-                                Console.WriteLine(f);
-                                if (f != mod + "\\recipes")
-                                {
-                                    Directory.Delete(f, true);
-                                }
-                            }
-
-                            Console.WriteLine("\t" + mod);
-                            string[] recipes = Directory.GetFiles(mod + "\\recipes");
-                        }
-                        else
-                        {
-                            Directory.Delete(mod, true);
-                        }
-                    }
-                }
-                else
-                {
-                    Directory.Delete(directory, true);
+                    File.Delete(f);
                 }
             }
+
+            foreach (string f in Directory.GetDirectories(directory))
+            {
+                Console.WriteLine(f);
+                if (f != directory + "\\data")
+                {
+                    Directory.Delete(f, true);
+                }
+            }
+
+
+            if (Directory.Exists(directory + "\\data"))
+            {
+                foreach (string mod in Directory.GetDirectories(directory + "\\data"))
+                {
+                    if (Directory.Exists(mod + "\\recipes"))
+                    {
+                        foreach (string f in Directory.GetDirectories(mod))
+                        {
+                            Console.WriteLine(f);
+                            if (f != mod + "\\recipes")
+                            {
+                                Directory.Delete(f, true);
+                            }
+                        }
+
+                        //Convert Items to Tags
+                        Console.WriteLine("\t" + mod);
+                        string[] recipeFiles = Directory.GetFiles(mod + "\\recipes");
+
+                        foreach (string recipeFile in recipeFiles)
+                        {
+                            string jsonString = File.ReadAllText(recipeFile);
+                            if (jsonString != null && jsonString != "")
+                            {
+                                try
+                                {
+                                    Recipe r = JsonSerializer.Deserialize<Recipe>(jsonString);
+
+                                    if (r != null)
+                                    {
+                                        r.SetLoc(recipeFile);
+                                        r.ToConsole();
+                                        recipes.Add(r);
+                                    }
+                                }
+                                catch(JsonException e)
+                                {
+
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Directory.Delete(mod, true);
+                    }
+                }
+            }
+            else
+            {
+                Directory.Delete(directory, true);
+            }
+
+
         }
     }
 }

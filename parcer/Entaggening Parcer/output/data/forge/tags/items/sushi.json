@@ -1,0 +1,29 @@
+{
+	"values":  
+		[
+			"culturaldelights:calamari_roll",
+			"culturaldelights:chicken_roll",
+			"culturaldelights:chicken_roll_slice",
+			"culturaldelights:egg_roll",
+			"culturaldelights:exotic_roll_medley",
+			"culturaldelights:midori_roll",
+			"culturaldelights:midori_roll_slice",
+			"culturaldelights:pufferfish_roll",
+			"culturaldelights:tropical_roll",
+			"farmersdelight:cod_roll",
+			"farmersdelight:kelp_roll",
+			"farmersdelight:kelp_roll_slice",
+			"farmersdelight:rice_roll_medley_block",
+			"farmersdelight:salmon_roll",
+			"hostiledelight:ghastroll",
+			"hostiledelight:guardianroll",
+			"oceansdelight:elder_guardian_roll",
+			"oceansdelight:fugu_roll",
+			"oceanic_delight:fish_egg_roll",
+			"oceanic_delight:fish_egg_roll_slice",
+			"oceanic_delight:sea_pickle_roll",
+			"oceanic_delight:sea_pickle_roll_slice",
+			"oceanic_delight:shrimp_roll",
+			"rusticdelight:calamari_roll"
+		]
+}
