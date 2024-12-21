@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:miteymeal"
+    },
+    "title": {
+      "translate": "advancements.maindish.title"
+    },
+    "description": {
+      "translate": "advancements.maindish.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "maindish": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:furnace"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:aggresivefood"
+}

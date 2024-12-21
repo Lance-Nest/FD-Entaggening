@@ -1,0 +1,20 @@
+{
+  "values": [
+    "fruittrees:apple_leaves",
+    "fruittrees:citron_leaves",
+    "fruittrees:grapefruit_leaves",
+    "fruittrees:lemon_leaves",
+    "fruittrees:lime_leaves",
+    "fruittrees:mandarin_leaves",
+    "fruittrees:orange_leaves",
+    "fruittrees:pomelo_leaves",
+    {
+      "id": "fruittrees:cherry_leaves",
+      "required": false
+    },
+    {
+      "id": "fruittrees:redlove_leaves",
+      "required": false
+    }
+  ]
+}

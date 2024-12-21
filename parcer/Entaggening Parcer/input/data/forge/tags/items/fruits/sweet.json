@@ -1,0 +1,33 @@
+{
+  "values": [
+    "#forge:fruits/apple",
+    "#forge:fruits/kiwi",
+    "#forge:fruits/melon",
+    "#forge:fruits/cantaloupe",
+    "#forge:fruits/prickly_pear",
+    "#forge:fruits/banana",
+    "#forge:fruits/sweet_berries",
+    "#forge:fruits/salmonberries",
+    "#forge:fruits/strawberries",
+    "#forge:fruits/cherry",
+    "#forge:fruits/blueberries",
+    "#forge:fruits/raspberries",
+    "#forge:fruits/blackberries",
+    "#forge:fruits/cranberries",
+    "#forge:fruits/wild_berries",
+    "#forge:fruits/rambutan",
+    "#forge:fruits/pitaya",
+    {
+      "id": "#forge:fruits/mandarin",
+      "required": false
+    },
+    {
+      "id": "#forge:fruits/orange",
+      "required": false
+    },
+    {
+      "id": "#forge:fruits/redlove",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "display": {
+    "background": "eggdelight:textures/screens/omelet.png",
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "translate": "advancements.egg_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.egg_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "egg_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg\r\n"
+            ],
+            "count": {
+              "min": 1,
+              "max": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "eggdelight:boiled_egg_recipe",
+      "eggdelight:sliced_boiled_egg_recipe",
+      "eggdelight:egg_pie",
+      "eggdelight:egg_pie_from_slices",
+      "eggdelight:egg_pie_slice_recipe",
+      "eggdelight:egg_pan",
+      "eggdelight:spatula",
+      "eggdelight:bacon_and_egg_cup",
+      "eggdelight:bread_slice",
+      "eggdelight:egg_in_a_basket",
+      "eggdelight:custard_recipe",
+      "eggdelight:egg_tart_recipe",
+      "eggdelight:eggs_benidict_recipe",
+      "eggdelight:scotch_egg_recipe",
+      "eggdelight:sliced_scotch_egg_recipe",
+      "eggdelight:egg_cookie_recipe",
+      "eggdelight:egg_toast_recipe"
+    ]
+  }
+}

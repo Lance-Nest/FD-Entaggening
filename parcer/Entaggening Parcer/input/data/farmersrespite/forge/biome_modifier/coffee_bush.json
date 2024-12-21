@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:basalt_deltas",
+  "features": "farmersrespite:patch_coffee_bush",
+  "step": "vegetal_decoration"
+}

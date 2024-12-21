@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "italian_delight:dragonborn_wine"
+    },
+    "title": {
+      "translate": "advancements.dragon_borne.title"
+    },
+    "description": {
+      "translate": "advancements.dragon_borne.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dragon_borne": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "italian_delight:dragonborn_wine"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "italian_delight:covermeinwine"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "oceanic_delight:fishing_net"
+    },
+    "title": {
+      "translate": "advancements.hitting_villager_with_net.title"
+    },
+    "description": {
+      "translate": "advancements.hitting_villager_with_net.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hitting_villager_with_net": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "farmersdelight:main/root"
+}

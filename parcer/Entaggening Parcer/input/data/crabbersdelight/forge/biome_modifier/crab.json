@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:mangrove_swamp",
+  "spawners": {
+    "type": "crabbersdelight:crab",
+    "weight": 70,
+    "minCount": 3,
+    "maxCount": 6
+  }
+}

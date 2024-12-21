@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:blazingale"
+    },
+    "title": {
+      "translate": "advancements.blazeale.title"
+    },
+    "description": {
+      "translate": "advancements.blazeale.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blazeale": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:blazingale"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:drinkk"
+}

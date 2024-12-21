@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:glowingsauce"
+    },
+    "title": {
+      "translate": "advancements.gsauce.title"
+    },
+    "description": {
+      "translate": "advancements.gsauce.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gsauce": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:glowingsauce"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

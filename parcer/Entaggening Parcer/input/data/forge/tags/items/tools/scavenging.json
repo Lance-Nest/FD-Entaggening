@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:tools/knives",
+    {
+      "id": "#nethersdelight:scavenging_tools",
+      "required": false
+    }
+  ]
+}

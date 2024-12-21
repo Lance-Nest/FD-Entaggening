@@ -9,17 +9,17 @@ class Tag
 {
     public static string saveDirectory = "..\\..\\..\\..\\output\\data\\forge\\tags\\items\\";
 
-    string modName;
-    string registryName;
-    string itemID;
-    string category;
-    string ingredientType;
-    string type;
-    string specific;
-    string extra;
-    string extra2;
-    string servingStyle;
-    string cooked;
+    public string modName;
+    public string registryName;
+    public string itemID;
+    public string category;
+    public string ingredientType;
+    public string type;
+    public string specific;
+    public string extra;
+    public string extra2;
+    public string servingStyle;
+    public string cooked;
 
     List<string> tags = new List<string>();
 
@@ -110,42 +110,58 @@ class Tag
         }
     }
 
+    public string GetFullTag()
+    {
+        string s = "\"tag\": " + "\"forge:"+ type;
+        if (specific != null && specific != "")
+            s += "/" + specific;
+        if (extra != null && extra != "")
+            s += "/" + extra;
+        if (extra2 != null && extra2 != "")
+            s += "/" + extra;
+        if (servingStyle != null && servingStyle != "")
+            s += "/" + servingStyle;
+        if (cooked != null && cooked != "")
+            s += "/" + cooked;
+
+        return s + "\"";
+    }
 }
 
-class Recipe
-{
-    public string location;
-    public Ingredient[]? ingredients { get; set; }
-    public Ingredient? ingredient { get; set; }
-    public Dictionary<string, Ingredient>? key { get; set; } = null;
+//class Recipe
+//{
+//    public string location;
+//    public Ingredient[]? ingredients { get; set; }
+//    public Ingredient? ingredient { get; set; }
+//    public Dictionary<string, Ingredient>? key { get; set; } = null;
 
-    public void SetLoc(string loc)
-    {
-        location = loc;
-    }
+//    public void SetLoc(string loc)
+//    {
+//        location = loc;
+//    }
 
-    public void ToConsole()
-    {
-        Console.WriteLine(location);
+//    public void ToConsole()
+//    {
+//        Console.WriteLine(location);
 
-        if (ingredients != null)
-            foreach (Ingredient i in ingredients)
-            {
-                Console.WriteLine(i.item);
-            }
+//        if (ingredients != null)
+//            foreach (Ingredient i in ingredients)
+//            {
+//                Console.WriteLine(i.item);
+//            }
 
-        Console.WriteLine(ingredient?.item);
+//        Console.WriteLine(ingredient?.item);
 
-        if (key != null)
-            foreach (KeyValuePair<string, Ingredient> i in key)
-            {
-                if(i.Value != null)
-                    Console.WriteLine(i.Key + ":" + i.Value.item);
-            }
+//        if (key != null)
+//            foreach (KeyValuePair<string, Ingredient> i in key)
+//            {
+//                if(i.Value != null)
+//                    Console.WriteLine(i.Key + ":" + i.Value.item);
+//            }
 
-    }
+//    }
 
-}
+//}
 
 class Ingredient
 {
@@ -158,9 +174,9 @@ class Program
     {
         Console.WriteLine("Starting");
         List<Tag> tags = File.ReadAllLines("..\\..\\..\\..\\tags.csv").Skip(9).Select(t => Tag.parceTag(t)).ToList();
-        List<Recipe> recipes = new List<Recipe>();
+        //List<Recipe> recipes = new List<Recipe>();
 
-        DirectoryInfo dir = new DirectoryInfo(Tag.saveDirectory);
+        DirectoryInfo dir = new DirectoryInfo("..\\..\\..\\..\\output\\");
         if (dir.Exists)
             dir.Delete(true);
 
@@ -179,96 +195,94 @@ class Program
                 outputFile.WriteLine("\n\t\t]");
                 //outputFile.WriteLine("\t}");
                 outputFile.WriteLine('}');
+
+                outputFile.Close();
             }
         }
         Console.WriteLine("Recipes Start:");
-        string[] directories = Directory.GetDirectories("..\\..\\..\\..\\input");
+        string directory = "..\\..\\..\\..\\input";
 
         //Delete anything not in data
-        cleanupAndGetRecipes(recipes, directories);
+        cleanupAndReplaceRecipes(directory, tags);
 
         Console.WriteLine("Finish");
     }
 
-    private static void cleanupAndGetRecipes(List<Recipe> recipes, string[] directories)
+    private static void cleanupAndReplaceRecipes(string directory, List<Tag> tags)
     {
-        foreach (string directory in directories)
-        {
             Console.WriteLine(directory);
-
-            foreach (string f in Directory.GetFiles(directory))
-            {
-                Console.WriteLine(f);
-                if (f != directory + "\\data")
-                {
-                    File.Delete(f);
-                }
-            }
 
             foreach (string f in Directory.GetDirectories(directory))
             {
                 Console.WriteLine(f);
-                if (f != directory + "\\data")
+                if (f != directory.ToString() + "\\data")
+                {
+                    Directory.Delete(f,true);
+                }
+
+
+                if (Directory.Exists(f + "\\recipes"))
+                {
+
+                    //Convert Items to Tags
+                    Console.WriteLine("\t" + f);
+                    string[] recipeFiles = Directory.GetFiles(f + "\\recipes");
+
+                    foreach (string recipeFile in recipeFiles)
+                    {
+                        string jsonString = File.ReadAllText(recipeFile);
+                        if (jsonString != null && jsonString != "")
+                        {
+                            replaceItems(jsonString, tags, recipeFile);
+                        }
+                    }
+                }
+                else
                 {
                     Directory.Delete(f, true);
                 }
             }
 
 
-            if (Directory.Exists(directory + "\\data"))
+        
+    }
+
+    private static void replaceItems(string jsonString, List<Tag> tags, string fileLoc)
+    {
+        bool edited = false;
+        if (jsonString.Contains("\"item\":"))
+        {
+            for (int i = 0; ; i += "\"item\":".Length)
             {
-                foreach (string mod in Directory.GetDirectories(directory + "\\data"))
+                i = jsonString.IndexOf("\"item\":", i);
+
+                if (i == -1)
+                    break;
+
+                int eol = jsonString.IndexOf('\n', i) - i;
+                string toReplace = jsonString.Substring(i + "\"item\":".Length, eol - "\"item\":".Length);
+
+                if (toReplace != null && toReplace != "")
                 {
-                    if (Directory.Exists(mod + "\\recipes"))
+                    toReplace = toReplace.Replace("\"", "");
+                    toReplace = toReplace.Replace(" ", "");
+                    Tag t = tags.Find(t => t.registryName == toReplace);
+                    if (t != null)
                     {
-                        foreach (string f in Directory.GetDirectories(mod))
-                        {
-                            Console.WriteLine(f);
-                            if (f != mod + "\\recipes")
-                            {
-                                Directory.Delete(f, true);
-                            }
-                        }
+                        jsonString = jsonString.Replace(toReplace, t.GetFullTag());
+                        Console.WriteLine(toReplace + " -> " + t.GetFullTag());
 
-                        //Convert Items to Tags
-                        Console.WriteLine("\t" + mod);
-                        string[] recipeFiles = Directory.GetFiles(mod + "\\recipes");
-
-                        foreach (string recipeFile in recipeFiles)
-                        {
-                            string jsonString = File.ReadAllText(recipeFile);
-                            if (jsonString != null && jsonString != "")
-                            {
-                                try
-                                {
-                                    Recipe r = JsonSerializer.Deserialize<Recipe>(jsonString);
-
-                                    if (r != null)
-                                    {
-                                        r.SetLoc(recipeFile);
-                                        r.ToConsole();
-                                        recipes.Add(r);
-                                    }
-                                }
-                                catch(JsonException e)
-                                {
-
-                                }
-                            }
-                        }
-                    }
-                    else
-                    {
-                        Directory.Delete(mod, true);
+                        edited = true;
                     }
                 }
             }
-            else
+
+            if (edited)
             {
-                Directory.Delete(directory, true);
+                string output = fileLoc.Replace("input", "output");
+                Directory.CreateDirectory(output.Substring(0, output.LastIndexOf("\\")));
+                File.WriteAllText(output, jsonString);
             }
-
-
         }
     }
 }

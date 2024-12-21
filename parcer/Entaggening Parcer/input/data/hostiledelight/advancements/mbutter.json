@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:magicalbutter"
+    },
+    "title": {
+      "translate": "advancements.mbutter.title"
+    },
+    "description": {
+      "translate": "advancements.mbutter.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mbutter": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:magicalbutter"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "hostiledelight:snack"
+}

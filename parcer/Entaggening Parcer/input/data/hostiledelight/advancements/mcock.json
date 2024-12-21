@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:marinecocktale"
+    },
+    "title": {
+      "translate": "advancements.mcock.title"
+    },
+    "description": {
+      "translate": "advancements.mcock.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mcock": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:marinecocktale"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:drinkk"
+}

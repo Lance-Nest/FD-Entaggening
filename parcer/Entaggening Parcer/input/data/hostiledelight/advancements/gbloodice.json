@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:ghastbloodicecream"
+    },
+    "title": {
+      "translate": "advancements.gbloodice.title"
+    },
+    "description": {
+      "translate": "advancements.gbloodice.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "gbloodice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:ghastbloodicecream"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "hostiledelight:snack"
+}

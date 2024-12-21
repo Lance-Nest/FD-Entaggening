@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "neapolitan:strawberries",
+      "required": false
+    },
+    {
+      "id": "neapolitan:white_strawberries",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "taiga",
+    "old_growth_pine_taiga",
+    "plains",
+    "old_growth_spruce_taiga"
+  ],
+  "features": "festive_delight:cinnamon_bushripe",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "_class": "dev.xkmc.cuisinedelight.content.logic.CookTransformConfig",
+  "fluidTransform": {
+    "farmersdelight:milk_bottle": {
+      "color": -1
+    }
+  },
+  "itemTransform": {}
+}
