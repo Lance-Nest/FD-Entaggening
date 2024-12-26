@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Entaggening_Parcer
-build_property.ProjectDir = C:\Users\dnann\OneDrive\Documents\GitHub\FD-Entaggening\parcer\Entaggening Parcer\Entaggening Parcer\
+build_property.ProjectDir = C:\Users\wolfe\Documents\GitHub\FD-Entaggening\parcer\Entaggening Parcer\Entaggening Parcer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

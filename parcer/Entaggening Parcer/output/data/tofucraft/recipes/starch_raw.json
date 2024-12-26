@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:potato/chopped"
+    },
+    {
+      "item": "tofucraft:filtercloth"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:starch_raw"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:pudding/fig/feast"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+"tag": "forge:pudding/fig/serving"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

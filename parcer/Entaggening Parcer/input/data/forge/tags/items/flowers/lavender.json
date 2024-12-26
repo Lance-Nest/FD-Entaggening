@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    { "id": "biomesoplenty:lavender", "required": false },
-    { "id": "druidcraft:lavender", "required": false }
-  ]
-}

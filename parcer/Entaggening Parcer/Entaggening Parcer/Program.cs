@@ -200,7 +200,7 @@ class Program
             }
         }
         Console.WriteLine("Recipes Start:");
-        string directory = "..\\..\\..\\..\\input";
+        string directory = "..\\..\\..\\..\\input\\data\\";
 
         //Delete anything not in data
         cleanupAndReplaceRecipes(directory, tags);
@@ -210,78 +210,98 @@ class Program
 
     private static void cleanupAndReplaceRecipes(string directory, List<Tag> tags)
     {
-            Console.WriteLine(directory);
+        Console.WriteLine(directory);
 
-            foreach (string f in Directory.GetDirectories(directory))
+        foreach (string f in Directory.GetDirectories(directory))
+        {
+            Console.WriteLine(f);
+            //if (f != directory.ToString() + "\\data")
+            //{
+            //    Directory.Delete(f, true);
+            //}
+            if (Directory.Exists(f + "\\recipes"))
             {
-                Console.WriteLine(f);
-                if (f != directory.ToString() + "\\data")
+                foreach (string s in Directory.GetDirectories(f))
                 {
-                    Directory.Delete(f,true);
-                }
-
-
-                if (Directory.Exists(f + "\\recipes"))
-                {
-
-                    //Convert Items to Tags
-                    Console.WriteLine("\t" + f);
-                    string[] recipeFiles = Directory.GetFiles(f + "\\recipes");
-
-                    foreach (string recipeFile in recipeFiles)
+                    if (s == f + "\\recipes")
                     {
-                        string jsonString = File.ReadAllText(recipeFile);
-                        if (jsonString != null && jsonString != "")
+                        //Convert Items to Tags
+                        Console.WriteLine("\t" + f);
+                        string[] recipeFiles = Directory.GetFiles(f + "\\recipes");
+
+                        foreach (string recipeFile in recipeFiles)
                         {
-                            replaceItems(jsonString, tags, recipeFile);
+                            string jsonString = File.ReadAllText(recipeFile);
+                            if (jsonString != null && jsonString != "")
+                            {
+                                replaceItems(jsonString, tags, recipeFile);
+                            }
                         }
                     }
+                    else
+                    {
+                        Directory.Delete(s, true);
+                    }
                 }
-                else
-                {
-                    Directory.Delete(f, true);
-                }
+
             }
+            else
+            {
+                Directory.Delete(f, true);
+            }
+        }
 
 
-        
     }
 
     private static void replaceItems(string jsonString, List<Tag> tags, string fileLoc)
     {
         bool edited = false;
-        if (jsonString.Contains("\"item\":"))
+        //split into lines
+        string[] lines = jsonString.Split("\n");
+
+        for (int i = 0; i < lines.Length; i++)
         {
-            for (int i = 0; ; i += "\"item\":".Length)
+            if (lines[i].Contains("\"result\""))
             {
-                i = jsonString.IndexOf("\"item\":", i);
-
-                if (i == -1)
-                    break;
-
-                int eol = jsonString.IndexOf('\n', i) - i;
-                string toReplace = jsonString.Substring(i + "\"item\":".Length, eol - "\"item\":".Length);
-
-                if (toReplace != null && toReplace != "")
+                i += 2;
+            }
+            else
+            {
+                if (lines[i].Contains("\"item\":"))
                 {
-                    toReplace = toReplace.Replace("\"", "");
-                    toReplace = toReplace.Replace(" ", "");
-                    Tag t = tags.Find(t => t.registryName == toReplace);
+
+                    string registryName = lines[i].Replace(" ", "");
+                    registryName = registryName.Replace("\"item\":", "");
+                    registryName = registryName.Replace("\"", "");
+
+                    Tag t = tags.Find(t => t.registryName == registryName);
                     if (t != null)
                     {
-                        jsonString = jsonString.Replace(toReplace, t.GetFullTag());
-                        Console.WriteLine(toReplace + " -> " + t.GetFullTag());
+                        Console.WriteLine(lines[i] + " -> " + t.GetFullTag());
+                        lines[i] = t.GetFullTag();
+
 
                         edited = true;
                     }
+
                 }
             }
+        }
 
-            if (edited)
+        if (edited)
+        {
+            string output = fileLoc.Replace("input", "output");
+            Directory.CreateDirectory(output.Substring(0, output.LastIndexOf("\\")));
+
+
+            using (StreamWriter outputFile = new StreamWriter(output, false))
             {
-                string output = fileLoc.Replace("input", "output");
-                Directory.CreateDirectory(output.Substring(0, output.LastIndexOf("\\")));
-                File.WriteAllText(output, jsonString);
+                foreach(string line in lines)
+                {
+                    outputFile.WriteLine(line);
+                }
+                outputFile.Close();
             }
         }
     }

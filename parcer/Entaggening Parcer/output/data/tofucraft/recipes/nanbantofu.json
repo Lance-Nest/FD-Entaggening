@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+"tag": "forge:tofu/kinu"
+      },
+      {
+"tag": "forge:tofu/momen"
+      }
+    ],
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+"tag": "forge:soy_sauce"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+"tag": "forge:chili_pepper"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:nanbantofu"
+  }
+}

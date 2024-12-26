@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jelly/fig"
+    },
+    {
+"tag": "forge:jelly/fig"
+    },
+    {
+"tag": "forge:jelly/fig"
+    },
+    {
+"tag": "forge:jelly/fig"
+    },
+    {
+"tag": "forge:jelly/fig"
+    },
+    {
+"tag": "forge:jelly/fig"
+    },
+    {
+"tag": "forge:jelly/fig"
+    },
+    {
+"tag": "forge:jelly/fig"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:fig_jello_block"
+  }
+}

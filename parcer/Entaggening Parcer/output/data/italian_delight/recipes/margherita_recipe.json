@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+"tag": "forge:cheese/mozzarella/slice"
+    },
+    "1": {
+"tag": "forge:sauce/tomato"
+    },
+    "2": {
+"tag": "forge:dough/wheat"
+    }
+  },
+  "result": {
+    "item": "italian_delight:raw_margherita",
+    "count": 1
+  }
+}

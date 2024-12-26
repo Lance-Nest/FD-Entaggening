@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 500,
+  "ingredient": {
+"tag": "forge:rack/chevon/raw"
+  },
+  "result": "butchersdelightfoods:cooked_goat_rack"
+}

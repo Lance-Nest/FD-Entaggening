@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:tortilla/hard"
+    }
+  ],
+  "result": [
+    {
+      "count": 8,
+"tag": "forge:chips/tortilla"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

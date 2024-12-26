@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:kinako"
+    },
+    {
+      "tag": "forge:crops/rice"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:kinako_mochi"
+  }
+}

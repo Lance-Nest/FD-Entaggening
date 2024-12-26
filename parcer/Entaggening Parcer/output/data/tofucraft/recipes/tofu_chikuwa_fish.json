@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:fish/tofu"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:tofu_chikuwa"
+  }
+}

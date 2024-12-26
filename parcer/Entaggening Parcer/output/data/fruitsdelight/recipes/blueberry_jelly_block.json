@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jam/blueberry"
+    },
+    {
+"tag": "forge:jam/blueberry"
+    },
+    {
+"tag": "forge:jam/blueberry"
+    },
+    {
+"tag": "forge:jam/blueberry"
+    },
+    {
+"tag": "forge:jam/blueberry"
+    },
+    {
+"tag": "forge:jam/blueberry"
+    },
+    {
+"tag": "forge:jam/blueberry"
+    },
+    {
+"tag": "forge:jam/blueberry"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:blueberry_jelly_block"
+  }
+}

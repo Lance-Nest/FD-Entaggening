@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:rice/cooked"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+"tag": "forge:flakes/fish"
+    },
+    {
+      "tag": "extradelight:riceball_filling"
+    }
+  ],
+  "result": {
+    "item": "extradelight:riceball_filled"
+  }
+}

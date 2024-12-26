@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:bread/panettone/feast"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "italian_delight:panettone_slice",
+      "count": 8
+    }
+  ]
+}

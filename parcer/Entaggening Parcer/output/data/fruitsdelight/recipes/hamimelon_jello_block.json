@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jelly/hamimelon"
+    },
+    {
+"tag": "forge:jelly/hamimelon"
+    },
+    {
+"tag": "forge:jelly/hamimelon"
+    },
+    {
+"tag": "forge:jelly/hamimelon"
+    },
+    {
+"tag": "forge:jelly/hamimelon"
+    },
+    {
+"tag": "forge:jelly/hamimelon"
+    },
+    {
+"tag": "forge:jelly/hamimelon"
+    },
+    {
+"tag": "forge:jelly/hamimelon"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:hamimelon_jello_block"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+"tag": "forge:gelatin"
+    },
+    {
+"tag": "forge:milk/soy"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "tofucraft:glassbowl"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:pudding_soymilk"
+  }
+}

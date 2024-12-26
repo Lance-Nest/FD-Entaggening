@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:dough/wheat"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+"tag": "forge:tortilla/raw"
+    }
+  ],
+  "tool": {
+    "item": "calebs_delight:rolling_pin"
+  }
+}

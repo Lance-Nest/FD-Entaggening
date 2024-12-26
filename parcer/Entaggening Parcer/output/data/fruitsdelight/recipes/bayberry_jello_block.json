@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jelly/bayberry"
+    },
+    {
+"tag": "forge:jelly/bayberry"
+    },
+    {
+"tag": "forge:jelly/bayberry"
+    },
+    {
+"tag": "forge:jelly/bayberry"
+    },
+    {
+"tag": "forge:jelly/bayberry"
+    },
+    {
+"tag": "forge:jelly/bayberry"
+    },
+    {
+"tag": "forge:jelly/bayberry"
+    },
+    {
+"tag": "forge:jelly/bayberry"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:bayberry_jello_block"
+  }
+}

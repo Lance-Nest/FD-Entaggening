@@ -1,9 +1,0 @@
-{
-  "values": [
-    "#minecraft:nylium",
-    {
-      "id": "#nethersdelight:rich_soul_soil",
-      "required": false
-    }
-  ]
-}

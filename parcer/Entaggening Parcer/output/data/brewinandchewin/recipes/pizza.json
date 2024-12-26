@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "f": {
+"tag": "forge:cheese/wedge/flaxen/feast"
+    },
+    "m": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "p": {
+"tag": "forge:patty/beef"
+    },
+    "t": {
+"tag": "forge:tomato"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "fff",
+    "mtp",
+    "www"
+  ],
+  "result": {
+    "item": "brewinandchewin:pizza"
+  }
+}

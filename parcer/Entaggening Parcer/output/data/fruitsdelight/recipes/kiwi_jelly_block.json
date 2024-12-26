@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jam/kiwi"
+    },
+    {
+"tag": "forge:jam/kiwi"
+    },
+    {
+"tag": "forge:jam/kiwi"
+    },
+    {
+"tag": "forge:jam/kiwi"
+    },
+    {
+"tag": "forge:jam/kiwi"
+    },
+    {
+"tag": "forge:jam/kiwi"
+    },
+    {
+"tag": "forge:jam/kiwi"
+    },
+    {
+"tag": "forge:jam/kiwi"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:kiwi_jelly_block"
+  }
+}

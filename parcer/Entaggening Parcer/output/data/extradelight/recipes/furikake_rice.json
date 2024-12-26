@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:furikake"
+    },
+    {
+"tag": "forge:rice/cooked"
+    }
+  ],
+  "result": {
+    "item": "extradelight:furikake_rice"
+  }
+}

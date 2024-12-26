@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+"tag": "forge:tofu/kinu"
+      },
+      {
+"tag": "forge:tofu/momen"
+      }
+    ],
+    {
+"tag": "forge:starch"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+"tag": "forge:soy_sauce"
+    },
+    {
+"tag": "forge:chili_paste/doubanjiang"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:mabodofu"
+  }
+}

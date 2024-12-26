@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+"tag": "forge:caviar/salmon"
+    },
+    "b": {
+"tag": "forge:rice/cooked"
+    },
+    "c": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "oceanic_delight:fish_egg_roll",
+    "count": 1
+  }
+}

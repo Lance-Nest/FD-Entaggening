@@ -1,9 +1,0 @@
-{
-  "_class": "dev.xkmc.cuisinedelight.content.logic.CookTransformConfig",
-  "fluidTransform": {
-    "minecraft:honey_bottle": {
-      "color": -77010
-    }
-  },
-  "itemTransform": {}
-}

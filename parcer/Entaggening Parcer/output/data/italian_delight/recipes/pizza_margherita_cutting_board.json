@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:pizza/margherita/feast/cooked"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "italian_delight:pizza_margherita_slice",
+      "count": 4
+    }
+  ]
+}

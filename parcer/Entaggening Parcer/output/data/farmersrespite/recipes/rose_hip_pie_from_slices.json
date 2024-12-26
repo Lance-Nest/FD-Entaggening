@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "r": {
+"tag": "forge:pie/rose_hip/slice"
+    }
+  },
+  "pattern": [
+    "rr",
+    "rr"
+  ],
+  "result": {
+    "item": "farmersrespite:rose_hip_pie"
+  }
+}

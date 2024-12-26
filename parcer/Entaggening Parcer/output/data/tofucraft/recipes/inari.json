@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:soy_sauce"
+    },
+    {
+"tag": "forge:oage"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+"tag": "forge:onigiri"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:inari"
+  }
+}

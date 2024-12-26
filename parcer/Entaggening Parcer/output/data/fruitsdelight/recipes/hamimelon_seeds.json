@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:hamimelon/slice"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:hamimelon_seeds"
+  }
+}

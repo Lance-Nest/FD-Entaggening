@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+"tag": "forge:tofu/grilled"
+    },
+    "M": {
+"tag": "forge:patty/tofu/cooked"
+    }
+  },
+  "pattern": [
+    "G",
+    "M",
+    "G"
+  ],
+  "result": {
+    "item": "tofucraft:tofu_buns_burger"
+  }
+}

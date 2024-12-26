@@ -1,9 +1,0 @@
-{
-  "values": [
-    "#forge:tea_leaves/green",
-    {
-      "id": "#farmersrespite:tea_leaves",
-      "required": false
-    }
-  ]
-}

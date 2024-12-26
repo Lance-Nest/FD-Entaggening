@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:acorn"
+    }
+  ],
+  "result": {
+    "item": "seeddelight:acorn_kernel",
+    "count": 2
+  }
+}

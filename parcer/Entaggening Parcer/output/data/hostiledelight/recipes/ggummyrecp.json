@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:sauce/glow"
+    },
+    {
+"tag": "forge:sauce/glow"
+    },
+    {
+"tag": "forge:slime"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:glowgummy",
+    "count": 2
+  }
+}

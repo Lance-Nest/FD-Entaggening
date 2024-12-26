@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+"tag": "forge:slime"
+    },
+    "1": {
+"tag": "forge:slime"
+    },
+    "2": {
+"tag": "forge:slime"
+    },
+    "3": {
+"tag": "forge:slime"
+    },
+    "4": {
+"tag": "forge:slime"
+    },
+    "5": {
+"tag": "forge:slime"
+    },
+    "6": {
+"tag": "forge:slime"
+    },
+    "7": {
+"tag": "forge:slime"
+    },
+    "8": {
+"tag": "forge:slime"
+    }
+  },
+  "result": {
+    "item": "hostiledelight:candiedslimeblock",
+    "count": 1
+  }
+}

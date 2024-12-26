@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:starch"
+    },
+    {
+"tag": "forge:soy_oil"
+    },
+    [
+      {
+"tag": "forge:tofu/kinu"
+      },
+      {
+"tag": "forge:tofu/momen"
+      }
+    ]
+  ],
+  "result": {
+    "item": "tofucraft:tofufried_pouch"
+  }
+}

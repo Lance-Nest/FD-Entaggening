@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+"tag": "forge:ghast/tentacle"
+    },
+    {
+"tag": "forge:ghast/tentacle"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:ghastblood",
+    "count": 1
+  }
+}

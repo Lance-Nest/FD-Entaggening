@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+"tag": "forge:dough/wheat"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:berrieddelight",
+    "count": 1
+  }
+}

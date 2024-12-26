@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+"tag": "forge:guardian/slice/cooked"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:sea_pickle"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:guardiansandwich",
+    "count": 1
+  }
+}
