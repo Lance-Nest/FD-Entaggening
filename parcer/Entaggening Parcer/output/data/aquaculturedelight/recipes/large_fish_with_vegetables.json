@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+	{
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+"tag": "forge:tomato"
+    },
+    {
+      "item": "aquaculture:fish_fillet_cooked"
+    },
+    {
+      "item": "aquaculture:fish_fillet_cooked"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+"tag": "forge:rice"
+    }
+  ],
+  "result": {
+    "item": "aquaculturedelight:large_fish_with_vegetables"
+  }
+}

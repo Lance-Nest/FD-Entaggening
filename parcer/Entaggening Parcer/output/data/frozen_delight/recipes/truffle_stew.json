@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "frozen_delight:truffles"
+    },
+    {
+      "tag": "frozen_delight:truffles"
+    },
+    {
+"tag": "forge:onion"
+    }
+  ],
+  "result": {
+    "item": "frozen_delight:truffle_stew"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,22 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "delightful:enabled",
+          "value": "cooked_goat"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "cookingtime": 200,
+        "experience": 0.35,
+        "ingredient": {
+"tag": "forge:chevon/raw"
+        },
+        "result": "delightful:cooked_goat"
+      }
+    }
+  ]
+}

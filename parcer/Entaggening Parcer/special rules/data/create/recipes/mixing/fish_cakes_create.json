@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:cooked_fishes"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+"tag": "forge:potato/grated"
+    },
+    {
+"tag": "forge:breading_misanplas"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+"tag": "forge:fish_cake"
+    }
+  ]
+}

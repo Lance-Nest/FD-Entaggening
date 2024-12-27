@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:chicken/chopped/raw"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+"tag": "forge:patty/chicken"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

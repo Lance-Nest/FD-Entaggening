@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:crab/feast/cooked"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+"tag": "forge:leg/crab/cooked"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

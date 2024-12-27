@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:pizza/feast"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+"tag": "forge:pizza/slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

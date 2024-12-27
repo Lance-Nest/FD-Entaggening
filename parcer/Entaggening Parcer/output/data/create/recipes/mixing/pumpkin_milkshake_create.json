@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+"tag": "forge:ice_cream"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:milkshake/pumpkin"
+    }
+  ]
+}

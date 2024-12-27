@@ -24,7 +24,7 @@
             "item": "minecraft:wheat"
           },
           "O": {
-			"tag": "forge:pie_crust"
+"tag": "forge:pie_crust"
           },
           "a": {
             "tag": "forge:fruits/sourceberry"

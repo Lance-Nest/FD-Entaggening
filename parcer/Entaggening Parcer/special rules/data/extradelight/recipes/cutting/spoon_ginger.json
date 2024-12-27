@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:ginger"
+    }
+  ],
+  "result": [
+    {
+      "item": "extradelight:peeled_ginger"
+    },
+    {
+      "chance": 0.25,
+"tag": "forge:ginger"
+    }
+  ],
+  "tool": {
+    "tag": "forge:spoons"
+  }
+}

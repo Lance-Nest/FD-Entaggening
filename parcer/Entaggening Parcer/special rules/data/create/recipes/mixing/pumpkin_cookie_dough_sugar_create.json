@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:cookie_dough/sugar"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    []
+  ],
+  "results": [
+    {
+"tag": "forge:cookie_dough/pumpkin"
+    }
+  ]
+}

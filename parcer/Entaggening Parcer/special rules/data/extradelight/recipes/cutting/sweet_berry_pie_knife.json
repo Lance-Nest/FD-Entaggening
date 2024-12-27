@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:pie/sweet_berry/feast"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+"tag": "forge:pie/sweet_berry/serving"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

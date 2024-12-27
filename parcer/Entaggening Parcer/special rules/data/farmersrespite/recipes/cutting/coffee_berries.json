@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:coffee"
+    }
+  ],
+  "result": [
+    {
+      "item": "farmersrespite:coffee_beans"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

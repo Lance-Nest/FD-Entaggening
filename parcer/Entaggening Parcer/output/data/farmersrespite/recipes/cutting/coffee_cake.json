@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:cake/coffee/feast"
+    }
+  ],
+  "result": [
+    {
+      "count": 7,
+"tag": "forge:cake/coffee/slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

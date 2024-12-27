@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "coffee",
+  "ingredients": [
+    {
+"tag": "forge:coffee/cooked"
+    },
+    {
+"tag": "forge:coffee/cooked"
+    }
+  ],
+  "needwater": true,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "farmersrespite:coffee"
+  }
+}

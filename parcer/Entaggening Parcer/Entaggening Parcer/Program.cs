@@ -144,6 +144,8 @@ class Ingredient
 
 class Program
 {
+    public static int editCount = 0;
+    public static int deleteCount = 0;
     static void Main(string[] args)
     {
         Console.WriteLine("Starting");
@@ -180,48 +182,31 @@ class Program
         cleanupAndReplaceRecipes(directory, tags);
 
         Console.WriteLine("Finish");
+        Console.WriteLine("Tags Created: " + tags.Count);
+        Console.WriteLine("Files Edited: " + editCount);
+        Console.WriteLine("Files Unedited: " + deleteCount);
     }
 
     private static void cleanupAndReplaceRecipes(string directory, List<Tag> tags)
     {
         Console.WriteLine(directory);
 
-        foreach (string f in Directory.GetDirectories(directory))
+        string[] allFiles = Directory.GetFiles(directory, "*", SearchOption.AllDirectories);
+        string[] recipeFiles = Directory.GetFiles(directory, "*.json", SearchOption.AllDirectories);
+
+        var deleteThese = allFiles.Except(recipeFiles);
+        foreach (string file in deleteThese)
+        {
+            File.Delete(file);
+        }
+
+        foreach (string f in recipeFiles)
         {
             Console.WriteLine(f);
-            //if (f != directory.ToString() + "\\data")
-            //{
-            //    Directory.Delete(f, true);
-            //}
-            if (Directory.Exists(f + "\\recipes"))
+            string jsonString = File.ReadAllText(f);
+            if (jsonString != null && jsonString != "")
             {
-                foreach (string s in Directory.GetDirectories(f))
-                {
-                    if (s == f + "\\recipes")
-                    {
-                        //Convert Items to Tags
-                        Console.WriteLine("\t" + f);
-                        string[] recipeFiles = Directory.GetFiles(f + "\\recipes");
-
-                        foreach (string recipeFile in recipeFiles)
-                        {
-                            string jsonString = File.ReadAllText(recipeFile);
-                            if (jsonString != null && jsonString != "")
-                            {
-                                replaceItems(jsonString, tags, recipeFile);
-                            }
-                        }
-                    }
-                    else
-                    {
-                        Directory.Delete(s, true);
-                    }
-                }
-
-            }
-            else
-            {
-                Directory.Delete(f, true);
+                replaceItems(jsonString, tags, f);
             }
         }
 
@@ -253,7 +238,7 @@ class Program
 
                     if (t != null && t.Count() > 0)
                     {
-                        
+
                         Tag specific = t.Aggregate(t[0], (cur, next) => next.GetFullTag().Length > cur.GetFullTag().Length ? next : cur);
 
                         if (specific != null)
@@ -275,10 +260,11 @@ class Program
             string output = fileLoc.Replace("input", "output");
             Directory.CreateDirectory(output.Substring(0, output.LastIndexOf("\\")));
 
+            Program.editCount++;
 
             using (StreamWriter outputFile = new StreamWriter(output, false))
             {
-                foreach(string line in lines)
+                foreach (string line in lines)
                 {
                     outputFile.WriteLine(line);
                 }
@@ -290,6 +276,12 @@ class Program
                 outputFile.WriteLine(output + ",");
                 outputFile.Close();
             }
+        }
+        else
+        {
+            Program.deleteCount++;
+            Console.WriteLine(fileLoc + " Deleted!");
+            File.Delete(fileLoc);
         }
     }
 }

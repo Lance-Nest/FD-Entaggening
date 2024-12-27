@@ -1,0 +1,51 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "collectorsreap:enabled",
+              "value": "lime_cake"
+            },
+            {
+              "type": "collectorsreap:enabled",
+              "value": "lime_cake_slice"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+"tag": "forge:cake/lime/slice"
+          },
+          {
+"tag": "forge:cake/lime/slice"
+          },
+          {
+"tag": "forge:cake/lime/slice"
+          },
+          {
+"tag": "forge:cake/lime/slice"
+          },
+          {
+"tag": "forge:cake/lime/slice"
+          },
+          {
+"tag": "forge:cake/lime/slice"
+          },
+          {
+"tag": "forge:cake/lime/slice"
+          }
+        ],
+        "result": {
+          "item": "collectorsreap:lime_cake"
+        }
+      }
+    }
+  ]
+}

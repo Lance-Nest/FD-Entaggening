@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:beef/ground"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+"tag": "forge:sauce/tomato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersdelight:pasta_with_meatballs"
+  }
+}

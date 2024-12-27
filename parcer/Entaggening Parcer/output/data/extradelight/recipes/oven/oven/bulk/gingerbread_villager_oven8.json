@@ -1,0 +1,39 @@
+{
+  "type": "extradelight:oven",
+  "container": {
+    "item": "extradelight:sheet"
+  },
+  "cookingtime": 800,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:cookie/gingerbread/villager/raw"
+    },
+    {
+"tag": "forge:cookie/gingerbread/villager/raw"
+    },
+    {
+"tag": "forge:cookie/gingerbread/villager/raw"
+    },
+    {
+"tag": "forge:cookie/gingerbread/villager/raw"
+    },
+    {
+"tag": "forge:cookie/gingerbread/villager/raw"
+    },
+    {
+"tag": "forge:cookie/gingerbread/villager/raw"
+    },
+    {
+"tag": "forge:cookie/gingerbread/villager/raw"
+    },
+    {
+"tag": "forge:cookie/gingerbread/villager/raw"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 8,
+    "item": "extradelight:gingerbread_villager"
+  }
+}

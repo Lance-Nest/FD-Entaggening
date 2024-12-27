@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:raw_chicken"
+    },
+    {
+"tag": "forge:powder/curry"
+    },
+    {
+"tag": "forge:broth/bone"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:stew/curry/feast"
+    }
+  ]
+}

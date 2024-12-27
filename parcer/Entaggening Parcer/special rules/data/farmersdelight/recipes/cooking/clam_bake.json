@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredients": [
+    {
+"tag": "forge:clam/cooked"
+    },
+    {
+"tag": "forge:lobster/feast/cooked"
+    },
+    {
+"tag": "forge:shrimp/cooked"
+    },
+    {
+      "item": "minecraft:seagrass"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+"tag": "forge:onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "crabbersdelight:clam_bake"
+  }
+}

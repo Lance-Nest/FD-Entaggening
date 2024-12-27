@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "collectorsreap:enabled",
+              "value": "lime_cake"
+            },
+            {
+              "type": "collectorsreap:enabled",
+              "value": "lime_cake_slice"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+          {
+"tag": "forge:cake/lime"
+          }
+        ],
+        "result": [
+          {
+            "count": 7,
+"tag": "forge:cake/lime/slice"
+          }
+        ],
+        "tool": {
+          "tag": "forge:tools/knives"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+"tag": "forge:broth/bone"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:gravy"
+    }
+  ]
+}

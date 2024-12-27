@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "festive_delight:gingerbread_block"
-  },
-  "result": "festive_delight:gingerbread_block_stairs"
-}

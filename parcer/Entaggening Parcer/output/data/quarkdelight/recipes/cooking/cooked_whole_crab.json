@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+	{
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "quark:crab_shell"
+    },
+    {
+      "item": "quark:crab_leg"
+    },
+    {
+      "item": "quark:crab_leg"
+    },
+    {
+"tag": "forge:rice"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "quarkdelight:cooked_whole_crab"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

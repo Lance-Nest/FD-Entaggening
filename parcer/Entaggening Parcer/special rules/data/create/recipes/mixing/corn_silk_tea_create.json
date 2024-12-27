@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+"tag": "forge:corn_silk"
+    },
+    {
+"tag": "forge:corn_silk"
+    },
+    {
+      "tag": "extradelight:sweetener"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:tea/corn_silk"
+    }
+  ]
+}

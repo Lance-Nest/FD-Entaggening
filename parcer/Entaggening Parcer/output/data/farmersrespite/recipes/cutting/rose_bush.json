@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:rose_bush"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+"tag": "forge:rose_hip"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

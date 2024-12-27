@@ -8,10 +8,10 @@
       "item": "minecraft:egg"
     },
     "f": {
-"tag": "forge:cheese/wedge/flaxen/feast"
+		"tag": "forge:cheese"
     },
     "l": {
-"tag": "forge:cabbage/slice"
+		"tag": "forge:cabbage/slice"
     },
     "m": {
       "tag": "forge:milk"

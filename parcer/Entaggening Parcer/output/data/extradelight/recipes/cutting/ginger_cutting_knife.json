@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:ginger"
+    }
+  ],
+  "result": [
+    {
+      "item": "extradelight:ginger_cutting"
+    },
+    {
+      "chance": 0.75,
+"tag": "forge:ginger"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

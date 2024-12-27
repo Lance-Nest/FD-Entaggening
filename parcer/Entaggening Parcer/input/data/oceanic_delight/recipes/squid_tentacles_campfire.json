@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "experience": 1,
-  "cookingtime": 600,
-  "ingredient": {
-    "tag": "forge:squid_tentacles"
-  },
-  "result": "oceanic_delight:grilled_squid_tentacles"
-}

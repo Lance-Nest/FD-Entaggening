@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+	{
+      "type": "forge:mod_loaded",
+      "modid": "babyfat"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "babyfat:ranchu"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "result": {
+    "item": "babydelight:goldfish_fried_rice"
+  },
+  "container": {
+"tag": "forge:fried_rice"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,20 @@
+{
+  "type": "extradelight:oven",
+  "container": {
+    "item": "extradelight:pie_dish"
+  },
+  "cookingtime": 800,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:omelet_mix"
+    },
+    {
+"tag": "forge:pie_crust"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "extradelight:quiche"
+  }
+}

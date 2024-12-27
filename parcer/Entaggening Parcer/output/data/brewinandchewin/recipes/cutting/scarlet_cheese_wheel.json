@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:cheese/wedge/scarlet"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+"tag": "forge:cheese/wedge/scarlet"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:cauldron"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+"tag": "forge:sauce/tomato"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+"tag": "forge:cheese/wedge/scarlet"
+    },
+    {
+"tag": "forge:pork/ham"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "brewinandchewin:fiery_fondue_pot"
+  }
+}

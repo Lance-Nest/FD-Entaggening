@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+"tag": "forge:sauce/tomato"
+    },
+    {
+"tag": "forge:pasta/raw"
+    },
+    {
+      "tag": "forge:rabbit/cooked"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:pasta/rabbit"
+    }
+  ]
+}

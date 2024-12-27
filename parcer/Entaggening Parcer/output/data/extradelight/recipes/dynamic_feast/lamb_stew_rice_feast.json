@@ -1,0 +1,8 @@
+{
+  "type": "extradelight:feast",
+  "block": "extradelight:lamb_stew_feast",
+  "ingredient": {
+"tag": "forge:rice/cooked"
+  },
+  "result": "extradelight:lamb_stew_rice"
+}

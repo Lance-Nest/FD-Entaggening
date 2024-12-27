@@ -1,0 +1,32 @@
+{
+  "type": "extradelight:oven",
+  "container": {
+    "item": "extradelight:pie_dish"
+  },
+  "cookingtime": 800,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+"tag": "forge:pie_crust"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "extradelight:pumpkin_cheesecake"
+  }
+}

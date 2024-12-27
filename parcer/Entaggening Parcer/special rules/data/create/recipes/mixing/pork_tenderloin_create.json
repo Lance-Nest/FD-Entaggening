@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+"tag": "forge:breading_misanplas"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:tenderloin/pork/deep_fried"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+"tag": "forge:salad/nether"
+    },
+    {
+"tag": "forge:stuffed_hoglin/raw"
+    },
+    {
+"tag": "forge:salad/nether"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "nethersdelight:stuffed_hoglin"
+  }
+}

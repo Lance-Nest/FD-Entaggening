@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "forge:fruits/lychee"
+    },
+    {
+      "tag": "forge:fruits/lychee"
+    },
+    {
+      "tag": "forge:fruits/lychee"
+    },
+    {
+      "tag": "forge:fruits/lychee"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+"tag": "forge:lemon/slice"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:lychee_jelly"
+  }
+}

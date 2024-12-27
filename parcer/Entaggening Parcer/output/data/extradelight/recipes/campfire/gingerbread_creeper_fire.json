@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 1.0,
+  "ingredient": {
+"tag": "forge:cookie/gingerbread/creeper/raw"
+  },
+  "result": "extradelight:gingerbread_creeper"
+}

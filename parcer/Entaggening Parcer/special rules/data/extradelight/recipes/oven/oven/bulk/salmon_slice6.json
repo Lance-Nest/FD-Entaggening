@@ -1,0 +1,33 @@
+{
+  "type": "extradelight:oven",
+  "container": {
+    "item": "extradelight:tray"
+  },
+  "cookingtime": 800,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:fish/salmon/slice"
+    },
+    {
+"tag": "forge:fish/salmon/slice"
+    },
+    {
+"tag": "forge:fish/salmon/slice"
+    },
+    {
+"tag": "forge:fish/salmon/slice"
+    },
+    {
+"tag": "forge:fish/salmon/slice"
+    },
+    {
+"tag": "forge:fish/salmon/slice"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 6,
+    "item": "farmersdelight:cooked_salmon_slice"
+  }
+}

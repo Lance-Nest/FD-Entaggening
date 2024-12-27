@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+"tag": "forge:potato/slice"
+    },
+    {
+      "tag": "extradelight:frying_oil"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:chip/potato"
+    }
+  ]
+}

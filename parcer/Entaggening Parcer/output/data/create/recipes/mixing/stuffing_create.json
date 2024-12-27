@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+"tag": "forge:croutons"
+    },
+    {
+      "tag": "forge:butter"
+    },
+    {
+"tag": "forge:broth/bone"
+    },
+    {
+      "tag": "extradelight:processed/onion"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:stuffing/feast"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "frozen_delight:frozen_truffles"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "frozen_delight:winter_refreshment"
+  },
+  "container": {
+"tag": "forge:milk/bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

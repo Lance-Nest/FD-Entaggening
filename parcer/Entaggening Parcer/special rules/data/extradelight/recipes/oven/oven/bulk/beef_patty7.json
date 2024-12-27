@@ -1,0 +1,36 @@
+{
+  "type": "extradelight:oven",
+  "container": {
+    "item": "extradelight:tray"
+  },
+  "cookingtime": 800,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:beef/ground"
+    },
+    {
+"tag": "forge:beef/ground"
+    },
+    {
+"tag": "forge:beef/ground"
+    },
+    {
+"tag": "forge:beef/ground"
+    },
+    {
+"tag": "forge:beef/ground"
+    },
+    {
+"tag": "forge:beef/ground"
+    },
+    {
+"tag": "forge:beef/ground"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 7,
+    "item": "farmersdelight:beef_patty"
+  }
+}

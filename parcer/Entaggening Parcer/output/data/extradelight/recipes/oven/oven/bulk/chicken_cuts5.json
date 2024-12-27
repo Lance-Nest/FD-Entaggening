@@ -1,0 +1,30 @@
+{
+  "type": "extradelight:oven",
+  "container": {
+    "item": "extradelight:tray"
+  },
+  "cookingtime": 800,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:chicken/chopped/raw"
+    },
+    {
+"tag": "forge:chicken/chopped/raw"
+    },
+    {
+"tag": "forge:chicken/chopped/raw"
+    },
+    {
+"tag": "forge:chicken/chopped/raw"
+    },
+    {
+"tag": "forge:chicken/chopped/raw"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 5,
+    "item": "farmersdelight:cooked_chicken_cuts"
+  }
+}

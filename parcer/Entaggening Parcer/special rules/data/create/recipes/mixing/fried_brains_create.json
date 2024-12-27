@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:brain"
+    },
+    {
+"tag": "forge:breading_misanplas"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:deep_fried/brains"
+    }
+  ]
+}

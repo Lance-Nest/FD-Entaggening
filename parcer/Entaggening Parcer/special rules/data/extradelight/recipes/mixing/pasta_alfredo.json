@@ -1,0 +1,18 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "ingredients": [
+    {
+      "tag": "forge:alfredo_sauce"
+    },
+    {
+"tag": "forge:pasta/raw"
+    }
+  ],
+  "result": {
+    "item": "extradelight:pasta_alfredo"
+  },
+  "stirs": 2,
+  "usedItem": {
+    "item": "minecraft:bowl"
+  }
+}

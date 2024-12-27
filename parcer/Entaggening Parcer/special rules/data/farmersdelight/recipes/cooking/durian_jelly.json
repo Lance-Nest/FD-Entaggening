@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+"tag": "forge:durian/flesh"
+    },
+    {
+"tag": "forge:durian/flesh"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+"tag": "forge:lemon/slice"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:durian_jelly"
+  }
+}

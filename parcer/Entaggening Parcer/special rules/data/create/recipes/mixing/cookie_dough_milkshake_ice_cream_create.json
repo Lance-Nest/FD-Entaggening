@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+"tag": "forge:ice_cream/cookie_dough"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:milkshake/cookie_dough"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+"tag": "forge:cookie/sugar/pickaxe/raw"
+  },
+  "result": "extradelight:sugar_cookie_pickaxe"
+}

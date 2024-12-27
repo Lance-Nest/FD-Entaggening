@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:pie/pumpkin/feast"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+"tag": "forge:pie/pumpkin/slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

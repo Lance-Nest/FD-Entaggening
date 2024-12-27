@@ -1,0 +1,41 @@
+{
+  "type": "extradelight:oven",
+  "container": {
+    "item": "extradelight:square_pan"
+  },
+  "cookingtime": 1600,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:cheese"
+    },
+    {
+"tag": "forge:sauce/tomato"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+"tag": "forge:pasta/lasagna"
+    },
+    {
+"tag": "forge:pasta/lasagna"
+    },
+    {
+"tag": "forge:pasta/lasagna"
+    },
+    {
+      "tag": "forge:ground_meat/cooked"
+    },
+    {
+"tag": "forge:sauce/tomato"
+    },
+    {
+      "tag": "forge:ground_meat/cooked"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "extradelight:lasanga_feast"
+  }
+}

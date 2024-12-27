@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+"tag": "forge:tart/milk/feast"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+"tag": "forge:tart/milk/slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "extradelight:unshucked_corn"
+    }
+  ],
+  "result": [
+    {
+      "item": "extradelight:corn_on_cob"
+    },
+    {
+      "count": 2,
+"tag": "forge:husk/corn"
+    },
+    {
+"tag": "forge:corn_silk"
+    },
+    {
+      "chance": 0.75,
+"tag": "forge:husk/corn"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

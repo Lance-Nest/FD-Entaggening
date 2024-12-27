@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "extradelight:sweetener"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+"tag": "forge:pumpkin/slice"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:ice_cream/pumpkin"
+    }
+  ]
+}

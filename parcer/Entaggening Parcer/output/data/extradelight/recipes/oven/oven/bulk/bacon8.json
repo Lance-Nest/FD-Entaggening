@@ -1,0 +1,39 @@
+{
+  "type": "extradelight:oven",
+  "container": {
+    "item": "extradelight:tray"
+  },
+  "cookingtime": 800,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:bacon/raw"
+    },
+    {
+"tag": "forge:bacon/raw"
+    },
+    {
+"tag": "forge:bacon/raw"
+    },
+    {
+"tag": "forge:bacon/raw"
+    },
+    {
+"tag": "forge:bacon/raw"
+    },
+    {
+"tag": "forge:bacon/raw"
+    },
+    {
+"tag": "forge:bacon/raw"
+    },
+    {
+"tag": "forge:bacon/raw"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 8,
+    "item": "farmersdelight:cooked_bacon"
+  }
+}

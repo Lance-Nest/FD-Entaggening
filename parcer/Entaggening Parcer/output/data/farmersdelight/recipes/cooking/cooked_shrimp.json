@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+"tag": "forge:shrimp/raw"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "crabbersdelight:cooked_shrimp"
+  }
+}

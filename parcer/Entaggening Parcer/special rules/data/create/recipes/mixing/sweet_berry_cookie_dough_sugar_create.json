@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:cookie_dough/sugar"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    []
+  ],
+  "results": [
+    {
+"tag": "forge:cookie_dough/sweet_berry"
+    }
+  ]
+}

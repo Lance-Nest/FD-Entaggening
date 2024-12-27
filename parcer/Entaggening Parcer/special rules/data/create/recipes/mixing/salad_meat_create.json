@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+"tag": "forge:cabbage/feast"
+    },
+    {
+      "tag": "extradelight:processed/onion"
+    },
+    {
+      "tag": "extradelight:processed/carrot"
+    },
+    {
+      "tag": "forge:croutons"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "tag": "forge:cooking_oil"
+    },
+    {
+      "tag": "forge:vinegar"
+    },
+    {
+      "tag": "forge:eggs/boiled"
+    },
+    {
+      "tag": "forge:meat/cooked"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:salad/feast"
+    }
+  ]
+}

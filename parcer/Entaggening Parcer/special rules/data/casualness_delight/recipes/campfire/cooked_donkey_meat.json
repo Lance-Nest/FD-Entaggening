@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+"tag": "forge:donkey/raw"
+  },
+  "cookingtime": 600,
+  "result": "casualness_delight:cooked_donkey_meat"
+}
+

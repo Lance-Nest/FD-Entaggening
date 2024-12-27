@@ -1,0 +1,20 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+"tag": "forge:pineapple"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+"tag": "forge:pineapple/slice"
+    }
+  ]
+}

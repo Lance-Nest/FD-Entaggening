@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+"tag": "forge:cactus/cooked"
+    },
+    {
+"tag": "forge:cactus/cooked"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+"tag": "forge:breading_misanplas"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:cactus/stuffed"
+    }
+  ]
+}

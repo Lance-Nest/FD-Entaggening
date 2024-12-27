@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:fishes"
+    },
+    {
+"tag": "forge:breading_misanplas"
+    }
+  ],
+  "results": [
+    {
+"tag": "forge:deep_fried/fish"
+    }
+  ]
+}

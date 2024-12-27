@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "experience": 1,
-  "cookingtime": 100,
-  "ingredient": {
-    "tag": "forge:squid_tentacles"
-  },
-  "result": "oceanic_delight:grilled_squid_tentacles"
-}
