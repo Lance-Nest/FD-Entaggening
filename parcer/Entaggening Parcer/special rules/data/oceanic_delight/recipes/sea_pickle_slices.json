@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:sea_pickle"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+"tag": "forge:sea_pickle/slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

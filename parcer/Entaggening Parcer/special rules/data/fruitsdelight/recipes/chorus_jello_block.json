@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jelly/chorus"
+    },
+    {
+"tag": "forge:jelly/chorus"
+    },
+    {
+"tag": "forge:jelly/chorus"
+    },
+    {
+"tag": "forge:jelly/chorus"
+    },
+    {
+"tag": "forge:jelly/chorus"
+    },
+    {
+"tag": "forge:jelly/chorus"
+    },
+    {
+"tag": "forge:jelly/chorus"
+    },
+    {
+"tag": "forge:jelly/chorus"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:chorus_jello_block"
+  }
+}

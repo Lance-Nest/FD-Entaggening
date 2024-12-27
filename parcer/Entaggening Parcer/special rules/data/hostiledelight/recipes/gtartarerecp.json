@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+"tag": "forge:patty/guardian"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+"tag": "forge:patty/guardian"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:guardiantartar",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:fried_tofu/pouch"
+    },
+    {
+"tag": "forge:dashi"
+    },
+    {
+"tag": "forge:soy_sauce"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:agedashi_tofu"
+  }
+}

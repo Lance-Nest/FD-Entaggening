@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:cake/slice"
+    },
+    {
+"tag": "forge:cake/slice"
+    },
+    {
+"tag": "forge:cake/slice"
+    },
+    {
+"tag": "forge:cake/slice"
+    },
+    {
+"tag": "forge:cake/slice"
+    },
+    {
+"tag": "forge:cake/slice"
+    },
+    {
+"tag": "forge:cake/slice"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cake"
+  }
+}

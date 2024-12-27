@@ -4,6 +4,7 @@ using System.IO;
 using System.Xml.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Linq;
 
 class Tag
 {
@@ -52,19 +53,27 @@ class Tag
         Directory.CreateDirectory(Tag.saveDirectory);
         write(category, Tag.saveDirectory);
         write(ingredientType, Tag.saveDirectory);
-        write(type, Tag.saveDirectory);
-        write(specific, Tag.saveDirectory +  "\\" + type);
-        write(extra, Tag.saveDirectory + "\\"  + type + "\\" + specific);
-        write(extra2, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + extra);
-        write(servingStyle, type, Tag.saveDirectory + "\\"  + servingStyle);
-        write(servingStyle, specific, Tag.saveDirectory + "\\"  + type + "\\" + servingStyle);
-        write(servingStyle, extra, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + servingStyle);
-        write(servingStyle, extra2, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
-        write(cooked, type, Tag.saveDirectory + "\\"  + servingStyle);
-        write(cooked, specific, Tag.saveDirectory + "\\"  + type + "\\" + servingStyle);
-        write(cooked, extra, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + servingStyle);
-        write(cooked, extra2, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
-        write(cooked, servingStyle, Tag.saveDirectory + "\\"  + type + "\\" + specific + "\\" + servingStyle + "\\" + extra + "\\" + servingStyle);
+        if (category != "seed")
+        {
+            write(type, Tag.saveDirectory);
+            write(specific, Tag.saveDirectory + "\\" + type);
+            write(extra, Tag.saveDirectory + "\\" + type + "\\" + specific);
+            write(extra2, Tag.saveDirectory + "\\" + type + "\\" + specific + "\\" + extra);
+            write(servingStyle, type, Tag.saveDirectory + "\\" + servingStyle);
+            write(servingStyle, specific, Tag.saveDirectory + "\\" + type + "\\" + servingStyle);
+            write(servingStyle, extra, Tag.saveDirectory + "\\" + type + "\\" + specific + "\\" + servingStyle);
+            write(servingStyle, extra2, Tag.saveDirectory + "\\" + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
+            write(cooked, type, Tag.saveDirectory + "\\" + servingStyle);
+            write(cooked, specific, Tag.saveDirectory + "\\" + type + "\\" + servingStyle);
+            write(cooked, extra, Tag.saveDirectory + "\\" + type + "\\" + specific + "\\" + servingStyle);
+            write(cooked, extra2, Tag.saveDirectory + "\\" + type + "\\" + specific + "\\" + extra + "\\" + servingStyle);
+            write(cooked, servingStyle, Tag.saveDirectory + "\\" + type + "\\" + specific + "\\" + servingStyle + "\\" + extra + "\\" + servingStyle);
+        }
+        else
+        {
+            write(type, category + "\\" + Tag.saveDirectory);
+        }
+        
 
         Console.WriteLine();
 
@@ -127,41 +136,6 @@ class Tag
         return s + "\"";
     }
 }
-
-//class Recipe
-//{
-//    public string location;
-//    public Ingredient[]? ingredients { get; set; }
-//    public Ingredient? ingredient { get; set; }
-//    public Dictionary<string, Ingredient>? key { get; set; } = null;
-
-//    public void SetLoc(string loc)
-//    {
-//        location = loc;
-//    }
-
-//    public void ToConsole()
-//    {
-//        Console.WriteLine(location);
-
-//        if (ingredients != null)
-//            foreach (Ingredient i in ingredients)
-//            {
-//                Console.WriteLine(i.item);
-//            }
-
-//        Console.WriteLine(ingredient?.item);
-
-//        if (key != null)
-//            foreach (KeyValuePair<string, Ingredient> i in key)
-//            {
-//                if(i.Value != null)
-//                    Console.WriteLine(i.Key + ":" + i.Value.item);
-//            }
-
-//    }
-
-//}
 
 class Ingredient
 {
@@ -275,14 +249,21 @@ class Program
                     registryName = registryName.Replace("\"item\":", "");
                     registryName = registryName.Replace("\"", "");
 
-                    Tag t = tags.Find(t => t.registryName == registryName);
-                    if (t != null)
+                    List<Tag> t = tags.FindAll(t => t.registryName == registryName);
+
+                    if (t != null && t.Count() > 0)
                     {
-                        Console.WriteLine(lines[i] + " -> " + t.GetFullTag());
-                        lines[i] = t.GetFullTag();
+                        
+                        Tag specific = t.Aggregate(t[0], (cur, next) => next.GetFullTag().Length > cur.GetFullTag().Length ? next : cur);
+
+                        if (specific != null)
+                        {
+                            Console.WriteLine(lines[i] + " -> " + specific.GetFullTag());
+                            lines[i] = specific.GetFullTag();
 
 
-                        edited = true;
+                            edited = true;
+                        }
                     }
 
                 }
@@ -301,6 +282,12 @@ class Program
                 {
                     outputFile.WriteLine(line);
                 }
+                outputFile.Close();
+            }
+
+            using (StreamWriter outputFile = new StreamWriter("..\\..\\..\\..\\effectedFiles.csv", true))
+            {
+                outputFile.WriteLine(output + ",");
                 outputFile.Close();
             }
         }

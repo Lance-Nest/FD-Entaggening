@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "cookingtime": 400,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+"tag": "forge:sauce/caramel"
+    }
+  ],
+  "result": {
+    "item": "extradelight:caramel_golden_apple"
+  }
+}

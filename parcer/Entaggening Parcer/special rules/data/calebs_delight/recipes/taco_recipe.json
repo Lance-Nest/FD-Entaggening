@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:tortilla/hard"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+"tag": "forge:tomato"
+    },
+    [
+      {
+"tag": "forge:chicken/chopped/cooked"
+      },
+      {
+"tag": "forge:bacon/cooked"
+      },
+      {
+"tag": "forge:ground_meat/beef/cooked"
+      }
+    ]
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 2,
+    "item": "calebs_delight:taco"
+  }
+}

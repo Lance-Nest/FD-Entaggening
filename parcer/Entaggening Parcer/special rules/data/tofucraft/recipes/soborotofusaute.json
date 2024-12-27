@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:tofu/minced"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+"tag": "forge:soy_sauce"
+    },
+    {
+"tag": "forge:dashi"
+    },
+    {
+"tag": "forge:soy_oil"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:soborotofusaute"
+  }
+}

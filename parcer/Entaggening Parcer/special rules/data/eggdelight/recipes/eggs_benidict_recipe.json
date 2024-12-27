@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+"tag": "forge:bread/slice"
+    },
+    {
+      "tag": "forge:cooked_bacon"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "eggdelight:eggs_benidict"
+  }
+}

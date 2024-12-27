@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+"tag": "forge:sea_grape"
+    }
+  },
+  "result": {
+    "item": "oceanic_delight:sea_grape_crate",
+    "count": 1
+  }
+}

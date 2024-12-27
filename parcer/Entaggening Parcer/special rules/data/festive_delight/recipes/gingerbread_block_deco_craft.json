@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+"tag": "forge:cookie/gingerbread/steve/steve"
+    },
+    "1": {
+"tag": "forge:cookie/gingerbread/steve/steve"
+    },
+    "2": {
+"tag": "forge:cookie/gingerbread/steve/steve"
+    },
+    "3": {
+"tag": "forge:cookie/gingerbread/steve/steve"
+    }
+  },
+  "result": {
+    "item": "festive_delight:gingerbread_block_decorations",
+    "count": 4
+  }
+}

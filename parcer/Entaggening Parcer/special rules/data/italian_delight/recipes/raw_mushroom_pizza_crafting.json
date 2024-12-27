@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "1": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "2": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "4": {
+"tag": "forge:sauce/tomato"
+    },
+    "7": {
+"tag": "forge:dough/wheat"
+    }
+  },
+  "result": {
+    "item": "italian_delight:raw_mushroom_pizza",
+    "count": 1
+  }
+}

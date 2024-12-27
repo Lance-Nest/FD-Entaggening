@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+"tag": "forge:tofu/zunda"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "result": {
+    "count": 6,
+    "item": "tofucraft:tofuladder_zunda"
+  }
+}

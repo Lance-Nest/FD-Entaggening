@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:paste/soybean"
+    },
+    {
+"tag": "forge:paste/soybean"
+    },
+    {
+"tag": "forge:paste/soybean"
+    },
+    {
+"tag": "forge:paste/soybean"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:zundama"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 0.1,
+  "cookingtime": 300,
+  "ingredient": {
+"tag": "forge:sunflower"
+  },
+  "result": "seeddelight:fried_sunflower_seed"
+}

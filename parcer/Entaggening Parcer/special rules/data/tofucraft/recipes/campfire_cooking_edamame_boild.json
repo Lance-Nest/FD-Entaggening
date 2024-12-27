@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": {
+"tag": "forge:edamame"
+  },
+  "result": "tofucraft:edamame_boild"
+}

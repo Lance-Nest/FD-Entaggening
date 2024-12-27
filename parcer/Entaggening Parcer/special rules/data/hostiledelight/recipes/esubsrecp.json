@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:tonic/dragon"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+"tag": "forge:butter/magic"
+    },
+    {
+"tag": "forge:endermite"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:endersubstance",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "f": {
+"tag": "forge:pie/sweet_berry/serving"
+    }
+  },
+  "pattern": [
+    "ff ",
+    "ff "
+  ],
+  "result": {
+    "item": "extradelight:sweet_berry_pie"
+  }
+}

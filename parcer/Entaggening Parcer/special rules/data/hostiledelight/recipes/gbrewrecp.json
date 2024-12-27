@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 800,
+  "ingredient": {
+"tag": "forge:blood/ghast"
+  },
+  "result": "hostiledelight:ghastbrew"
+}

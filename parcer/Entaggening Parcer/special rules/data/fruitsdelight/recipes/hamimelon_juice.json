@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+"tag": "forge:hamimelon/slice"
+    },
+    {
+"tag": "forge:hamimelon/slice"
+    },
+    {
+"tag": "forge:hamimelon/slice"
+    },
+    {
+"tag": "forge:hamimelon/slice"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:hamimelon_juice"
+  }
+}

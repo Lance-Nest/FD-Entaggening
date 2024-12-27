@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jelly/mangosteen"
+    },
+    {
+"tag": "forge:jelly/mangosteen"
+    },
+    {
+"tag": "forge:jelly/mangosteen"
+    },
+    {
+"tag": "forge:jelly/mangosteen"
+    },
+    {
+"tag": "forge:jelly/mangosteen"
+    },
+    {
+"tag": "forge:jelly/mangosteen"
+    },
+    {
+"tag": "forge:jelly/mangosteen"
+    },
+    {
+"tag": "forge:jelly/mangosteen"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:mangosteen_jello_block"
+  }
+}

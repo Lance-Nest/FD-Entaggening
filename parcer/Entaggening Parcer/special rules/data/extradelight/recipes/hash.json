@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 0.35,
+  "ingredients": [
+    {
+"tag": "forge:potato/grated"
+    },
+    {
+"tag": "forge:potato/grated"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "extradelight:frying_oil"
+    },
+    {
+      "tag": "forge:meat"
+    }
+  ],
+  "result": {
+    "item": "extradelight:hash_block_item"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jam/peach"
+    },
+    {
+"tag": "forge:jam/peach"
+    },
+    {
+"tag": "forge:jam/peach"
+    },
+    {
+"tag": "forge:jam/peach"
+    },
+    {
+"tag": "forge:jam/peach"
+    },
+    {
+"tag": "forge:jam/peach"
+    },
+    {
+"tag": "forge:jam/peach"
+    },
+    {
+"tag": "forge:jam/peach"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:peach_jelly_block"
+  }
+}

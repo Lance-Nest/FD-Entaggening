@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abc",
+    "d  "
+  ],
+  "key": {
+    "a": {
+"tag": "forge:deep_fried/shrimp"
+    },
+    "b": {
+"tag": "forge:tentacle/glow_squid/cooked"
+    },
+    "c": {
+      "tag": "forge:sea_pickles"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "oceanic_delight:seafood_skewer",
+    "count": 1
+  }
+}

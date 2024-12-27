@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+"tag": "forge:tentacle/glow_squid/raw"
+    },
+    {
+"tag": "forge:sauce/tomato"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "oceanic_delight:glow_squid_stew"
+  }
+}

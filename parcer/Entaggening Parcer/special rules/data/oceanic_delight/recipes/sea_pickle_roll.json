@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "forge:sea_pickles"
+    },
+    "A": {
+      "item": "minecraft:dried_kelp"
+    },
+    "R": {
+"tag": "forge:rice/cooked"
+    },
+    "X": {
+      "tag": "forge:squid_tentacles"
+    }
+  },
+  "pattern": [
+    "RXR",
+    "#A#"
+  ],
+  "result": {
+    "item": "oceanic_delight:sea_pickle_roll"
+  }
+}

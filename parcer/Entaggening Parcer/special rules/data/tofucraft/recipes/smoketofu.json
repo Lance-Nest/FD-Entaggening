@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": {
+"tag": "forge:tofu/dried"
+  },
+  "result": "tofucraft:smoketofu"
+}

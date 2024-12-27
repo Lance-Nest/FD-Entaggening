@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jelly/glowberry"
+    },
+    {
+"tag": "forge:jelly/glowberry"
+    },
+    {
+"tag": "forge:jelly/glowberry"
+    },
+    {
+"tag": "forge:jelly/glowberry"
+    },
+    {
+"tag": "forge:jelly/glowberry"
+    },
+    {
+"tag": "forge:jelly/glowberry"
+    },
+    {
+"tag": "forge:jelly/glowberry"
+    },
+    {
+"tag": "forge:jelly/glowberry"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:glowberry_jello_block"
+  }
+}

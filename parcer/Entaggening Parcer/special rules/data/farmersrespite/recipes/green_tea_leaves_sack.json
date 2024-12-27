@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+"tag": "forge:tea/green"
+    }
+  },
+  "pattern": [
+    "lll",
+    "lll",
+    "lll"
+  ],
+  "result": {
+    "item": "farmersrespite:green_tea_leaves_sack"
+  }
+}

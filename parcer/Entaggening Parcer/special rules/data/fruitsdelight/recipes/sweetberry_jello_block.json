@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jelly/sweet_berry"
+    },
+    {
+"tag": "forge:jelly/sweet_berry"
+    },
+    {
+"tag": "forge:jelly/sweet_berry"
+    },
+    {
+"tag": "forge:jelly/sweet_berry"
+    },
+    {
+"tag": "forge:jelly/sweet_berry"
+    },
+    {
+"tag": "forge:jelly/sweet_berry"
+    },
+    {
+"tag": "forge:jelly/sweet_berry"
+    },
+    {
+"tag": "forge:jelly/sweet_berry"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:sweetberry_jello_block"
+  }
+}

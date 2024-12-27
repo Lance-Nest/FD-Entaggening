@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+"tag": "forge:tart/milk/slice"
+    }
+  },
+  "pattern": [
+    "ss",
+    "ss"
+  ],
+  "result": {
+    "item": "extradelight:milk_tart_feast"
+  }
+}

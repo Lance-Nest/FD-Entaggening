@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:tofu/hell"
+    },
+    {
+"tag": "forge:chili_paste/doubanjiang"
+    },
+    {
+"tag": "forge:chili_pepper"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:hell_mabou"
+  }
+}

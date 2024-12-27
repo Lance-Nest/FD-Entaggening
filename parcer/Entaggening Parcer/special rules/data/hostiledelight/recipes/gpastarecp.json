@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:cod"
+    },
+    {
+"tag": "forge:sauce/glow"
+    },
+    {
+"tag": "forge:pasta/raw"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "hostiledelight:glowpasta"
+  }
+}

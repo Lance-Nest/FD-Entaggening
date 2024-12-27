@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+"tag": "forge:rice"
+    },
+    {
+"tag": "forge:cheese/wedge/flaxen/feast"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:mushroom_risotto"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jam/durian"
+    },
+    {
+"tag": "forge:jam/durian"
+    },
+    {
+"tag": "forge:jam/durian"
+    },
+    {
+"tag": "forge:jam/durian"
+    },
+    {
+"tag": "forge:jam/durian"
+    },
+    {
+"tag": "forge:jam/durian"
+    },
+    {
+"tag": "forge:jam/durian"
+    },
+    {
+"tag": "forge:jam/durian"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:durian_jelly_block"
+  }
+}

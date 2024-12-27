@@ -1,0 +1,15 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "oceanic_delight:instant_breath",
+  "providers": [
+    {
+"tag": "forge:sea_grape"
+    },
+    {
+"tag": "forge:sea_grape"
+    },
+    {
+"tag": "forge:salad/squid"
+    }
+  ]
+}

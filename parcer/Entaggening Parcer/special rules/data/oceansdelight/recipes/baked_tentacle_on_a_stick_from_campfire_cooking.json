@@ -1,0 +1,22 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:campfire_cooking",
+        "cookingtime": 600,
+        "experience": 0.35,
+        "ingredient": {
+"tag": "forge:squid/tentacle/on_stick/raw"
+        },
+        "result": "oceansdelight:baked_tentacle_on_a_stick"
+      }
+    }
+  ]
+}

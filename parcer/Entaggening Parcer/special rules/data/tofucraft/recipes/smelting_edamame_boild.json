@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+"tag": "forge:edamame"
+  },
+  "result": "tofucraft:edamame_boild"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:deep_fried/fish"
+    },
+    {
+"tag": "forge:fries/potato"
+    },
+    {
+      "tag": "forge:vinegar"
+    }
+  ],
+  "result": {
+    "item": "extradelight:fish_chips"
+  }
+}

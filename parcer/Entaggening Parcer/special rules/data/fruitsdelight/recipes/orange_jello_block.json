@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+"tag": "forge:jelly/orange"
+    },
+    {
+"tag": "forge:jelly/orange"
+    },
+    {
+"tag": "forge:jelly/orange"
+    },
+    {
+"tag": "forge:jelly/orange"
+    },
+    {
+"tag": "forge:jelly/orange"
+    },
+    {
+"tag": "forge:jelly/orange"
+    },
+    {
+"tag": "forge:jelly/orange"
+    },
+    {
+"tag": "forge:jelly/orange"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:orange_jello_block"
+  }
+}

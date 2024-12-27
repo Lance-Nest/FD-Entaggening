@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+"tag": "forge:guardian/slice"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "hostiledelight:guardiansoup"
+  }
+}
