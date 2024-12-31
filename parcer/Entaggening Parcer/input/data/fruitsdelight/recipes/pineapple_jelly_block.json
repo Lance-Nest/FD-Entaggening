@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:pineapple_jelly"
+    },
+    {
+      "item": "fruitsdelight:pineapple_jelly"
+    },
+    {
+      "item": "fruitsdelight:pineapple_jelly"
+    },
+    {
+      "item": "fruitsdelight:pineapple_jelly"
+    },
+    {
+      "item": "fruitsdelight:pineapple_jelly"
+    },
+    {
+      "item": "fruitsdelight:pineapple_jelly"
+    },
+    {
+      "item": "fruitsdelight:pineapple_jelly"
+    },
+    {
+      "item": "fruitsdelight:pineapple_jelly"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:pineapple_jelly_block"
+  }
+}

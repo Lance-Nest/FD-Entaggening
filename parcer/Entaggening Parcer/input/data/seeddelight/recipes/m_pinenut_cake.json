@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "seeddelight:pine_nut_kernel"
+    }
+  ],
+  "result": {
+    "item": "seeddelight:pinenut_cake",
+    "count": 1
+  }
+}

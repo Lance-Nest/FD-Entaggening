@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:brownie/slime"
+    },
+    "title": {
+      "translate": "advancements.sbrow.title"
+    },
+    "description": {
+      "translate": "advancements.sbrow.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sbrow": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:slimebrownie"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calebs_delight:tortilla_chip"
+    },
+    {
+      "item": "calebs_delight:tortilla_chip"
+    },
+    {
+      "item": "calebs_delight:tortilla_chip"
+    },
+    {
+      "item": "calebs_delight:tortilla_chip"
+    },
+    {
+      "item": "calebs_delight:salsa"
+    },
+    {
+      "item": "calebs_delight:tortilla_chip"
+    },
+    {
+      "item": "calebs_delight:tortilla_chip"
+    },
+    {
+      "item": "calebs_delight:tortilla_chip"
+    },
+    {
+      "item": "calebs_delight:tortilla_chip"
+    }
+  ],
+  "result": {
+    "item": "calebs_delight:chip_salsa",
+    "count": 8
+  }
+}

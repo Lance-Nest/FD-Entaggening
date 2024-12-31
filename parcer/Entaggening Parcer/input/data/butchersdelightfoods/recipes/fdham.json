@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "butchersdelightfoods:ham"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "minecraft:porkchop",
+      "count": 2
+    },
+    {
+      "item": "minecraft:bone",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  "sound": "minecraft:block.beehive.drip"
+}

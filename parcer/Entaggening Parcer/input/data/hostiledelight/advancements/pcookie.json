@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:pearlcookie"
+    },
+    "title": {
+      "translate": "advancements.pcookie.title"
+    },
+    "description": {
+      "translate": "advancements.pcookie.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pcookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:pearlcookie"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

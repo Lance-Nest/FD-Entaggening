@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bread"
+    },
+    "1": {
+      "item": "minecraft:bread"
+    },
+    "2": {
+      "item": "argentinas_delight:costeletaitem"
+    },
+    "3": {
+      "item": "argentinas_delight:costeletaitem"
+    },
+    "4": {
+      "item": "minecraft:bread"
+    },
+    "5": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "argentinas_delight:mandibulabloque",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:syrup/slime"
+    },
+    "title": {
+      "translate": "advancements.slimesy.title"
+    },
+    "description": {
+      "translate": "advancements.slimesy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "slimesy": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:silmesyrup"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:drinkk"
+}

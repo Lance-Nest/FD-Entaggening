@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:soda"
+    },
+    "title": {
+      "translate": "advancements.sodadrink.title"
+    },
+    "description": {
+      "translate": "advancements.sodadrink.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sodadrink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:soda"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:drinkk"
+}

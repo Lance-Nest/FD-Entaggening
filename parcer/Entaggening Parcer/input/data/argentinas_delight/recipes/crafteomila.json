@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "argentinas_delight:pechugacruda"
+    }
+  ],
+  "result": {
+    "item": "argentinas_delight:milanesacruda",
+    "count": 2
+  }
+}

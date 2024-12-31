@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "values": [
+            {
+              "item": "farmersrespite:green_tea_leaves",
+              "type": "forge:item_exists"
+            },
+            {
+              "value": "green_tea_leaf",
+              "type": "delightful:enabled"
+            }
+          ],
+          "type": "forge:and"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "delightful:green_tea_leaf"
+          },
+          {
+            "item": "delightful:green_tea_leaf"
+          }
+        ],
+        "result": {
+          "item": "farmersrespite:green_tea_leaves",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

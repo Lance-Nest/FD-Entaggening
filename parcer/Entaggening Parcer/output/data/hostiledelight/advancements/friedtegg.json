@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:turtle/cooked"
+    },
+    "title": {
+      "translate": "advancements.friedtegg.title"
+    },
+    "description": {
+      "translate": "advancements.friedtegg.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "friedtegg": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:friedturtleegg"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

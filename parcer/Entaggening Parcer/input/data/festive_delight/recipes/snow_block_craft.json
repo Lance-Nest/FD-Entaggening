@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "festive_delight:gingerbread_cookie_flake"
+    },
+    "1": {
+      "item": "festive_delight:gingerbread_cookie_flake"
+    },
+    "2": {
+      "item": "festive_delight:gingerbread_cookie_flake"
+    },
+    "3": {
+      "item": "festive_delight:gingerbread_cookie_flake"
+    }
+  },
+  "result": {
+    "item": "festive_delight:gingerbread_block_snow",
+    "count": 4
+  }
+}

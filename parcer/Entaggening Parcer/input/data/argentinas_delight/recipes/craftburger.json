@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "argentinas_delight:hamburguesasola"
+    }
+  ],
+  "result": {
+    "item": "argentinas_delight:hamburguesasanguche",
+    "count": 1
+  }
+}

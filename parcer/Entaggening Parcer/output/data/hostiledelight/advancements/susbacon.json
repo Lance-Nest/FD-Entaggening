@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:bacon_eggs/suspicious"
+    },
+    "title": {
+      "translate": "advancements.susbacon.title"
+    },
+    "description": {
+      "translate": "advancements.susbacon.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "susbacon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:suspiciousbaconandaggs"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "hostiledelight:maindish"
+}

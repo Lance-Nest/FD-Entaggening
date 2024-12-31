@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "festive_delight:gingerbread_cookie_sword"
+    },
+    "1": {
+      "item": "festive_delight:gingerbread_cookie_sword"
+    },
+    "2": {
+      "item": "festive_delight:gingerbread_cookie_sword"
+    },
+    "3": {
+      "item": "festive_delight:gingerbread_cookie_sword"
+    }
+  },
+  "result": {
+    "item": "festive_delight:gingerbread_block_diamond",
+    "count": 4
+  }
+}

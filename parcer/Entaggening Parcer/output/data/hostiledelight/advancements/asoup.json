@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:soup/aurora"
+    },
+    "title": {
+      "translate": "advancements.asoup.title"
+    },
+    "description": {
+      "translate": "advancements.asoup.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "asoup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:aurorasoup"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "parent": "hostiledelight:soup"
+}

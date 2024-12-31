@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:carrotmite"
+    },
+    "title": {
+      "translate": "advancements.cmitee.title"
+    },
+    "description": {
+      "translate": "advancements.cmitee.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cmitee": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:carrotmite"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:maindish"
+}

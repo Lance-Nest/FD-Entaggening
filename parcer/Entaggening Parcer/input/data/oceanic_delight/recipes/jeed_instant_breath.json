@@ -1,0 +1,15 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "oceanic_delight:instant_breath",
+  "providers": [
+    {
+      "item": "oceanic_delight:sea_grape"
+    },
+    {
+      "item": "oceanic_delight:sea_grape_juice"
+    },
+    {
+      "item": "oceanic_delight:squid_salad"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeddelight:pinecone"
+    }
+  ],
+  "result": {
+    "item": "seeddelight:pine_nut_kernel",
+    "count": 3
+  }
+}

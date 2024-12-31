@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 40,
+  "ingredient": {
+    "item": "calebs_delight:tortilla"
+  },
+  "result": "calebs_delight:cooked_tortilla"
+}

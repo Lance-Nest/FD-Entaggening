@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "collectorsreap:enabled",
+              "value": "portobello_quiche"
+            },
+            {
+              "type": "collectorsreap:enabled",
+              "value": "portobello_quiche_slice"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "collectorsreap:portobello_quiche_slice"
+          },
+          {
+            "item": "collectorsreap:portobello_quiche_slice"
+          },
+          {
+            "item": "collectorsreap:portobello_quiche_slice"
+          },
+          {
+            "item": "collectorsreap:portobello_quiche_slice"
+          }
+        ],
+        "result": {
+          "item": "collectorsreap:portobello_quiche"
+        }
+      }
+    }
+  ]
+}

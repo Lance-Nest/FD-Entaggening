@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/bricks.png",
+    "icon": {
+"tag": "forge:ross/guardian"
+    },
+    "title": {
+      "translate": "advancements.aggresivefood.title"
+    },
+    "description": {
+      "translate": "advancements.aggresivefood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aggresivefood": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}

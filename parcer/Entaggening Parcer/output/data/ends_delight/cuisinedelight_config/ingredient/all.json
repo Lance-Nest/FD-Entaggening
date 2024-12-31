@@ -1,0 +1,134 @@
+{
+  "_class": "dev.xkmc.cuisinedelight.content.logic.IngredientConfig",
+  "entries": [
+    {
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": [
+        {
+"tag": "forge:leg/dragon"
+        },
+        {
+"tag": "forge:dragon/slice/raw"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 240,
+      "nutrition": 12,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 3,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": {
+"tag": "forge:dragon/chopped/raw"
+      },
+      "max_time": 300,
+      "min_time": 180,
+      "nutrition": 12,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 2,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": {
+"tag": "forge:egg/dragon/raw"
+      },
+      "max_time": 240,
+      "min_time": 180,
+      "nutrition": 15,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 2,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [
+        {
+          "effect": "minecraft:levitation",
+          "level": 0,
+          "time": 80
+        }
+      ],
+      "ingredient": {
+"tag": "forge:shulker/feast/raw"
+      },
+      "max_time": 240,
+      "min_time": 180,
+      "nutrition": 8,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 2,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [
+        {
+          "effect": "minecraft:levitation",
+          "level": 0,
+          "time": 40
+        }
+      ],
+      "ingredient": {
+"tag": "forge:shulker/slice/raw"
+      },
+      "max_time": 180,
+      "min_time": 120,
+      "nutrition": 8,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 1,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": {
+"tag": "forge:endermite/raw"
+      },
+      "max_time": 300,
+      "min_time": 180,
+      "nutrition": 8,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 1,
+      "stir_time": 80
+    },
+    {
+      "type": "VEG",
+      "effects": [],
+      "ingredient": {
+"tag": "forge:chorus_succulent"
+      },
+      "max_time": 120,
+      "min_time": 0,
+      "nutrition": 3,
+      "overcook_penalty": 0.3,
+      "raw_penalty": 0.3,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [],
+      "ingredient": {
+"tag": "forge:chorus_fruit/chopped"
+      },
+      "max_time": 120,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.3,
+      "raw_penalty": 0.3,
+      "size": 1,
+      "stir_time": 60
+    }
+  ]
+}

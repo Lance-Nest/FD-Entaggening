@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:apple/blaze"
+    },
+    "title": {
+      "translate": "advancements.blazeapple.title"
+    },
+    "description": {
+      "translate": "advancements.blazeapple.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blazeapple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:blazingapple"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

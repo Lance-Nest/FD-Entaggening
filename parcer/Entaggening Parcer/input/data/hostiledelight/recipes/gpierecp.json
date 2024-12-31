@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "minecraft:turtle_egg"
+    },
+    {
+      "item": "hostiledelight:rottenham"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:greenpie",
+    "count": 1
+  }
+}

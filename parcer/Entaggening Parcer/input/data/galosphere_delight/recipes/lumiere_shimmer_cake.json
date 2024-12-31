@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "040",
+    "111",
+    "232"
+  ],
+  "key": {
+    "0": {
+      "item": "galosphere_delight:lumiere_shiny_powder"
+    },
+    "1": {
+      "tag": "forge:milk"
+    },
+    "2": {
+      "item": "minecraft:glow_berries"
+    },
+    "3": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "4": {
+      "item": "galosphere:lumiere_shard"
+    }
+  },
+  "result": {
+    "item": "galosphere_delight:lumiere_shimmer_cake"
+  }
+}

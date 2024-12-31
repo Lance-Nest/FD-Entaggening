@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "forest",
+    "plains",
+    "birch_forest"
+  ],
+  "features": "argentinas_delight:arboldeyerbamate",
+  "step": "surface_structures"
+}

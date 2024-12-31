@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:fig_jello"
+    },
+    {
+      "item": "fruitsdelight:fig_jello"
+    },
+    {
+      "item": "fruitsdelight:fig_jello"
+    },
+    {
+      "item": "fruitsdelight:fig_jello"
+    },
+    {
+      "item": "fruitsdelight:fig_jello"
+    },
+    {
+      "item": "fruitsdelight:fig_jello"
+    },
+    {
+      "item": "fruitsdelight:fig_jello"
+    },
+    {
+      "item": "fruitsdelight:fig_jello"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:fig_jello_block"
+  }
+}

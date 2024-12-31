@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    "W": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "pattern": [
+    "WQ ",
+    "Q  ",
+    "   "
+  ],
+  "result": {
+    "item": "mysticalagriculturedelight:supremium_pie"
+  }
+}

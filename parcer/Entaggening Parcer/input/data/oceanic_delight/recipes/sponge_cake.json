@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "a": {
+      "item": "minecraft:sponge"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    },
+    "p": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "pattern": [
+    " p ",
+    "xax",
+    " O "
+  ],
+  "result": {
+    "item": "oceanic_delight:sponge_cake"
+  }
+}

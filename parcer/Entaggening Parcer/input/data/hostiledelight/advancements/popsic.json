@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:popsiclime"
+    },
+    "title": {
+      "translate": "advancements.popsic.title"
+    },
+    "description": {
+      "translate": "advancements.popsic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "popsic": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:popsiclime"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

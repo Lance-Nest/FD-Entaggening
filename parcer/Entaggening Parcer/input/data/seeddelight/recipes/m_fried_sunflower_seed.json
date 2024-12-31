@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "seeddelight:sunflower_seed"
+  },
+  "result": "seeddelight:fried_sunflower_seed"
+}

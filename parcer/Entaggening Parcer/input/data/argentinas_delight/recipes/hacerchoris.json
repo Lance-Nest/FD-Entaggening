@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "argentinas_delight:achurasitem"
+    },
+    {
+      "item": "argentinas_delight:carnepicadaitem"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "argentinas_delight:chorizos_crudositem",
+    "count": 1
+  }
+}

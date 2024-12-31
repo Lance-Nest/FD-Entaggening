@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "argentinas_delight:tostaditas"
+    },
+    "3": {
+      "item": "argentinas_delight:tostaditas"
+    },
+    "4": {
+      "item": "argentinas_delight:dulcedeleche"
+    },
+    "5": {
+      "item": "argentinas_delight:tostaditas"
+    },
+    "7": {
+      "item": "argentinas_delight:tostaditas"
+    }
+  },
+  "result": {
+    "item": "argentinas_delight:tostadacondulcedeleche",
+    "count": 4
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:miteymeal"
+    },
+    "title": {
+      "translate": "advancements.mmeal.title"
+    },
+    "description": {
+      "translate": "advancements.mmeal.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mmeal": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:miteymeal"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "hostiledelight:maindish"
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:pudding/ghast"
+    },
+    "title": {
+      "translate": "advancements.gpudding.title"
+    },
+    "description": {
+      "translate": "advancements.gpudding.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gpudding": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:ghastpudding"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

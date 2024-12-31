@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "italian_delight:pandoro"
+    },
+    "title": {
+      "translate": "advancements.xmas_achivment.title"
+    },
+    "description": {
+      "translate": "advancements.xmas_achivment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "xmas_achivment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "italian_delight:pandoro"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 69
+  },
+  "parent": "italian_delight:first_pizza"
+}

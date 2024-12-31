@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:frozen_flesh"
+    },
+    "title": {
+      "translate": "advancements.ffleshh.title"
+    },
+    "description": {
+      "translate": "advancements.ffleshh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ffleshh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:frozen_flesh"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:maindish"
+}

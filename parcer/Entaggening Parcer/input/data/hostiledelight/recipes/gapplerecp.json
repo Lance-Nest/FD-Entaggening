@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hostiledelight:glowingsauce"
+    },
+    {
+      "item": "hostiledelight:glowingsauce"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "result": {
+    "item": "hostiledelight:glowapple",
+    "count": 1
+  }
+}

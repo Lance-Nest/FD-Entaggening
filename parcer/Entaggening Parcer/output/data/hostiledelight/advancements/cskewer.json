@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:skewer/cave"
+    },
+    "title": {
+      "translate": "advancements.cskewer.title"
+    },
+    "description": {
+      "translate": "advancements.cskewer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cskewer": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:caveskewer"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

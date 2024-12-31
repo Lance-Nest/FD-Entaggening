@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:cookie/endermite"
+    },
+    "title": {
+      "translate": "advancements.micookie.title"
+    },
+    "description": {
+      "translate": "advancements.micookie.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "micookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:mitecookie"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

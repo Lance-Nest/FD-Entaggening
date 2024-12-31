@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "argentinas_delight:patamusloitem"
+    },
+    {
+      "item": "argentinas_delight:papas_rusticas"
+    },
+    {
+      "item": "argentinas_delight:papas_rusticas"
+    }
+  ],
+  "result": {
+    "item": "argentinas_delight:polloconpapas",
+    "count": 1
+  }
+}

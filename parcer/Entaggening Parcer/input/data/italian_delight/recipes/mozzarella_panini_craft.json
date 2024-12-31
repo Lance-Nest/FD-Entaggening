@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "italian_delight:mozzarella_slices"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:mozzarella_panini",
+    "count": 1
+  }
+}

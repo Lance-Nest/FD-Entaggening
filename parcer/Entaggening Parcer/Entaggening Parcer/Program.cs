@@ -176,7 +176,7 @@ class Program
             }
         }
         Console.WriteLine("Recipes Start:");
-        string directory = "..\\..\\..\\..\\input\\data\\";
+        string directory = "..\\..\\..\\..\\input\\";
 
         //Delete anything not in data
         cleanupAndReplaceRecipes(directory, tags);
@@ -199,6 +199,8 @@ class Program
         {
             File.Delete(file);
         }
+
+        DeleteEmptyDirs(directory);
 
         foreach (string f in recipeFiles)
         {
@@ -283,5 +285,34 @@ class Program
             Console.WriteLine(fileLoc + " Deleted!");
             File.Delete(fileLoc);
         }
+    }
+
+    static void DeleteEmptyDirs(string dir)
+    {
+        if (String.IsNullOrEmpty(dir))
+            throw new ArgumentException(
+                "Starting directory is a null reference or an empty string",
+                "dir");
+
+        try
+        {
+            foreach (var d in Directory.EnumerateDirectories(dir))
+            {
+                DeleteEmptyDirs(d);
+            }
+
+            var entries = Directory.EnumerateFileSystemEntries(dir);
+
+            if (!entries.Any())
+            {
+                try
+                {
+                    Directory.Delete(dir);
+                }
+                catch (UnauthorizedAccessException) { }
+                catch (DirectoryNotFoundException) { }
+            }
+        }
+        catch (UnauthorizedAccessException) { }
     }
 }

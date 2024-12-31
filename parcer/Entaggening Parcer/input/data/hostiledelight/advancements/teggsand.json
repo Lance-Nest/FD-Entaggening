@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:turtleeggsandwich"
+    },
+    "title": {
+      "translate": "advancements.teggsand.title"
+    },
+    "description": {
+      "translate": "advancements.teggsand.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "teggsand": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:turtleeggsandwich"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:lychee_jelly"
+    },
+    {
+      "item": "fruitsdelight:lychee_jelly"
+    },
+    {
+      "item": "fruitsdelight:lychee_jelly"
+    },
+    {
+      "item": "fruitsdelight:lychee_jelly"
+    },
+    {
+      "item": "fruitsdelight:lychee_jelly"
+    },
+    {
+      "item": "fruitsdelight:lychee_jelly"
+    },
+    {
+      "item": "fruitsdelight:lychee_jelly"
+    },
+    {
+      "item": "fruitsdelight:lychee_jelly"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:lychee_jelly_block"
+  }
+}

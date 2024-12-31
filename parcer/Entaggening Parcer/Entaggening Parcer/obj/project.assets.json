@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dnann\\.nuget\\packages\\": {}
+    "C:\\Users\\wolfe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dnann\\OneDrive\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj",
+      "projectUniqueName": "C:\\Users\\wolfe\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj",
       "projectName": "Entaggening Parcer",
-      "projectPath": "C:\\Users\\dnann\\OneDrive\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj",
-      "packagesPath": "C:\\Users\\dnann\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dnann\\OneDrive\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\obj\\",
+      "projectPath": "C:\\Users\\wolfe\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj",
+      "packagesPath": "C:\\Users\\wolfe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wolfe\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dnann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wolfe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

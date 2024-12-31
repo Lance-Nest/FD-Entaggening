@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "addition": {
+    "item": "argentinas_delight:cuernodetoro"
+  },
+  "result": {
+    "item": "argentinas_delight:dagagauchatool"
+  }
+}

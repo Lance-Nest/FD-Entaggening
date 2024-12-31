@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:sashimi/guardian"
+    },
+    "title": {
+      "translate": "advancements.gsashimi.title"
+    },
+    "description": {
+      "translate": "advancements.gsashimi.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gsashimi": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:guardiansashimi"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:maindish"
+}

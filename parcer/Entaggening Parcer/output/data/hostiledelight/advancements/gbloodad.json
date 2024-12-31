@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:blood/ghast"
+    },
+    "title": {
+      "translate": "advancements.gbloodad.title"
+    },
+    "description": {
+      "translate": "advancements.gbloodad.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gbloodad": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:ghastblood"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:drinkk"
+}

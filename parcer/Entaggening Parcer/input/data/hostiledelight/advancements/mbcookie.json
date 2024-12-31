@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:magicbuttercookie"
+    },
+    "title": {
+      "translate": "advancements.mbcookie.title"
+    },
+    "description": {
+      "translate": "advancements.mbcookie.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mbcookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:magicbuttercookie"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

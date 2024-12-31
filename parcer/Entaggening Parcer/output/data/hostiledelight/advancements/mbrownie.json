@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:brownie/magma"
+    },
+    "title": {
+      "translate": "advancements.mbrownie.title"
+    },
+    "description": {
+      "translate": "advancements.mbrownie.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mbrownie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:magmabrownie"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

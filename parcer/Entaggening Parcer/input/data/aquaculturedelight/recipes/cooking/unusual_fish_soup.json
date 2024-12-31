@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+	{
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:raw_fishes/piranha"
+    },
+	{
+      "tag": "forge:vegetables"
+    },
+	{
+      "item": "minecraft:beetroot"
+    },
+	{
+      "item": "farmersdelight:rice"
+    },
+	{
+      "item": "farmersdelight:pumpkin_slice"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "aquaculturedelight:unusual_fish_soup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

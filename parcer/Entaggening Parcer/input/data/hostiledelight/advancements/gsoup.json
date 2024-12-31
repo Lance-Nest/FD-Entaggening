@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hostiledelight:guardiansoup"
+    },
+    "title": {
+      "translate": "advancements.gsoup.title"
+    },
+    "description": {
+      "translate": "advancements.gsoup.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gsoup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:guardiansoup"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:soup"
+}

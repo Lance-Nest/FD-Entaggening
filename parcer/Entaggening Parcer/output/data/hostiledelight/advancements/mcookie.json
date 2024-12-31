@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+"tag": "forge:cookie/magma"
+    },
+    "title": {
+      "translate": "advancements.mcookie.title"
+    },
+    "description": {
+      "translate": "advancements.mcookie.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mcookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hostiledelight:magmacookie"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "hostiledelight:snack"
+}

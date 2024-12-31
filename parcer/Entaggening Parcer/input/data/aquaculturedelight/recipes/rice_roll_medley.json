@@ -1,0 +1,45 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+	{
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "aquaculturedelight:kelp_rolls"
+    },
+    {
+      "tag": "aquaculturedelight:kelp_rolls"
+    },
+    {
+      "tag": "aquaculturedelight:kelp_rolls"
+    },
+    {
+      "item": "farmersdelight:salmon_roll"
+    },
+    {
+      "item": "farmersdelight:salmon_roll"
+    },
+    {
+      "item": "farmersdelight:salmon_roll"
+    },
+    {
+      "tag": "aquaculturedelight:fish_rolls"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "aquaculturedelight:fish_rolls"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:rice_roll_medley_block"
+  }
+}

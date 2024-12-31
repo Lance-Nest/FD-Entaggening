@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:mangosteen_jelly"
+    },
+    {
+      "item": "fruitsdelight:mangosteen_jelly"
+    },
+    {
+      "item": "fruitsdelight:mangosteen_jelly"
+    },
+    {
+      "item": "fruitsdelight:mangosteen_jelly"
+    },
+    {
+      "item": "fruitsdelight:mangosteen_jelly"
+    },
+    {
+      "item": "fruitsdelight:mangosteen_jelly"
+    },
+    {
+      "item": "fruitsdelight:mangosteen_jelly"
+    },
+    {
+      "item": "fruitsdelight:mangosteen_jelly"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:mangosteen_jelly_block"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "festive_delight:cinnamon_powder"
+    },
+    {
+      "item": "festive_delight:cinnamon_powder"
+    }
+  ],
+  "result": {
+    "item": "festive_delight:christmas_tea"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

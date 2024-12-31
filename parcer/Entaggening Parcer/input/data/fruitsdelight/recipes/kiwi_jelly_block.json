@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:kiwi_jelly"
+    },
+    {
+      "item": "fruitsdelight:kiwi_jelly"
+    },
+    {
+      "item": "fruitsdelight:kiwi_jelly"
+    },
+    {
+      "item": "fruitsdelight:kiwi_jelly"
+    },
+    {
+      "item": "fruitsdelight:kiwi_jelly"
+    },
+    {
+      "item": "fruitsdelight:kiwi_jelly"
+    },
+    {
+      "item": "fruitsdelight:kiwi_jelly"
+    },
+    {
+      "item": "fruitsdelight:kiwi_jelly"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:kiwi_jelly_block"
+  }
+}

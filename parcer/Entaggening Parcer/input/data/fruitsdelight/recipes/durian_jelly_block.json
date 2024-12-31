@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:durian_jelly"
+    },
+    {
+      "item": "fruitsdelight:durian_jelly"
+    },
+    {
+      "item": "fruitsdelight:durian_jelly"
+    },
+    {
+      "item": "fruitsdelight:durian_jelly"
+    },
+    {
+      "item": "fruitsdelight:durian_jelly"
+    },
+    {
+      "item": "fruitsdelight:durian_jelly"
+    },
+    {
+      "item": "fruitsdelight:durian_jelly"
+    },
+    {
+      "item": "fruitsdelight:durian_jelly"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:durian_jelly_block"
+  }
+}

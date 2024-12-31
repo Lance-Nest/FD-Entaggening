@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "dandelion_tea",
+  "ingredients": [
+    {
+      "item": "farmersrespite:dandelion_tea"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "needwater": false,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "farmersrespite:long_dandelion_tea"
+  }
+}
