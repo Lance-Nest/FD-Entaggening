@@ -154,8 +154,45 @@ class Program
 
         DirectoryInfo dir = new DirectoryInfo("..\\..\\..\\..\\output\\");
         if (dir.Exists)
-            dir.Delete(true);
+        {
+            Console.WriteLine("Output already exists! Overwrite? (y/n)");
 
+            while (true)
+            {
+                string? n = Console.ReadLine();
+
+                if (n == "y")
+                {
+                    dir.Delete(true);
+                    Taggify(tags);
+                    break;
+                }
+                if (n == "n")
+                    break;
+            }
+        }
+        else
+        {
+            Taggify(tags);
+        }
+
+        Console.WriteLine("Begin Manual Review? (Y/N)");
+
+        while (true)
+        {
+            string? n = Console.ReadLine();
+
+            if (n == "y")
+            {
+                ManualReview("..\\..\\..\\..\\output\\");
+            }
+            if (n == "n")
+                return;
+        }
+    }
+
+    private static void Taggify(List<Tag> tags)
+    {
         foreach (Tag t in tags)
         {
             t.save();
@@ -185,6 +222,27 @@ class Program
         Console.WriteLine("Tags Created: " + tags.Count);
         Console.WriteLine("Files Edited: " + editCount);
         Console.WriteLine("Files Unedited: " + deleteCount);
+    }
+
+    private static void ManualReview(string directory)
+    {
+        string[] recipeFiles = Directory.GetFiles(directory, "*.json", SearchOption.AllDirectories);
+
+        int c = 0;
+        foreach (string file in recipeFiles)
+        {
+            c++;
+            Console.Clear();
+
+            Console.WriteLine(c + "/" + recipeFiles.Length + "\t" + file);
+
+            IEnumerable<string> s = File.ReadLines(file);
+
+            foreach (string s2 in s)
+                Console.WriteLine(s2);
+
+            Console.ReadLine();
+        }
     }
 
     private static void cleanupAndReplaceRecipes(string directory, List<Tag> tags)

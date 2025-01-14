@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "cookingtime": 600,
-  "experience": 0.25,
-  "ingredient": {
-"tag": "forge:patty/tofu/raw"
-  },
-  "result": "tofucraft:tofuhamburg"
-}

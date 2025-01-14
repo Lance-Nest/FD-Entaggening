@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "experience": 1,
-  "cookingtime": 800,
-  "ingredient": {
-    "item": "hostiledelight:ghastblood"
-  },
-  "result": "hostiledelight:ghastbrew"
-}

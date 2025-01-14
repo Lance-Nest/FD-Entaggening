@@ -1,9 +1,0 @@
-{
-  "type": "ae2:charger",
-  "ingredient": {
-    "item": "farmersdelight:apple_cider"
-  },
-  "result": {
-    "item": "appliedenergisticsdelight:charged_apple_cider"
-  }
-}

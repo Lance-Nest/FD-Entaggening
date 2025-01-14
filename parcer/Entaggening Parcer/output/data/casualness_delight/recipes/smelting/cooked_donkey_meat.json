@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-"tag": "forge:donkey/raw"
-  },
-  "cookingtime": 200,
-  "result": "casualness_delight:cooked_donkey_meat"
-}
-

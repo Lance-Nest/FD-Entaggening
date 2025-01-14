@@ -1,9 +1,0 @@
-{
-  "type": "casualness_delight:deep_frying",
-  "ingredient": {
-"tag": "forge:spring_roll/raw"
-  },
-  "cookingtime": 100,
-  "result": "casualness_delight:spring_roll"
-}
-

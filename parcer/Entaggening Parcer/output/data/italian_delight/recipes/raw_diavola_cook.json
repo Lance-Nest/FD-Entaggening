@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "experience": 1,
-  "cookingtime": 350,
-  "ingredient": {
-"tag": "forge:pizza/diavola/feast/raw"
-  },
-  "result": "italian_delight:pizza_diavola"
-}

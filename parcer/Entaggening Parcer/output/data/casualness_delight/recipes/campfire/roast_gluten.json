@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-"tag": "forge:gluten/on_stick/raw"
-  },
-  "cookingtime": 600,
-  "result": "casualness_delight:roast_gluten"
-}
-

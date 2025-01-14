@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "experience": 1,
-  "cookingtime": 600,
-  "ingredient": {
-    "item": "argentinas_delight:milanesacruda"
-  },
-  "result": "argentinas_delight:milanesa"
-}

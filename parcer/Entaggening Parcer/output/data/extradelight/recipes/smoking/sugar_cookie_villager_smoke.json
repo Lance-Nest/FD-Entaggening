@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 1.0,
-  "ingredient": {
-"tag": "forge:cookie/sugar/villager/raw"
-  },
-  "result": "extradelight:sugar_cookie_villager"
-}

@@ -1,9 +1,0 @@
-{
-  "type": "casualness_delight:deep_frying",
-  "ingredient": {
-"tag": "forge:potato/sliced"
-  },
-  "cookingtime": 100,
-  "result": "casualness_delight:potato_chip"
-}
-

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "cookingtime": 600,
-  "experience": 1.0,
-  "ingredient": {
-"tag": "forge:cookie/sugar/diamond/raw"
-  },
-  "result": "extradelight:sugar_cookie_diamond"
-}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "cookingtime": 600,
-  "experience": 1.0,
-  "ingredient": {
-"tag": "forge:sandwich/cheese"
-  },
-  "result": "extradelight:grilled_cheese"
-}
