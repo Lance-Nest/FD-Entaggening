@@ -237,12 +237,70 @@ class Program
             Console.WriteLine(c + "/" + recipeFiles.Length + "\t" + file);
 
             IEnumerable<string> s = File.ReadLines(file);
+            Dictionary<int, string> indexedStrings = new Dictionary<int, string>();
+            
+            for(int i = 0; i < s.Count(); i++)
+            {
+                string s2 = s.ElementAt(i);
+                if (s2.Contains("\"tag\":") || s2.Contains("\"item\":"))
+                {
+                    indexedStrings.Add(i, s2);
+                }
+            }
 
-            foreach (string s2 in s)
-                Console.WriteLine(s2);
+            for(int i = 0; i < indexedStrings.Count()-1; i++)
+            {
+                Console.WriteLine((i+1) + ": " + indexedStrings.ElementAt(i).Value);
+            }
 
-            Console.ReadLine();
+            Console.WriteLine("Select between 1 and " + (indexedStrings.Count() - 1) + " or 0 to continue.");
+
+            string? input = Console.ReadLine();
+            while (input != null && input != "0")
+            {
+                int i = 0;
+                if (int.TryParse(input, out i))
+                {
+                    Console.Clear();
+                    Console.WriteLine("Change the following to?");
+                    Console.WriteLine(indexedStrings.ElementAt(i-1).Value);
+                    Console.Write("\"tag\": ");
+                    string changed = getChangedInput();
+
+                    KeyValuePair<int, string> kvp = indexedStrings.ElementAt(i - 1);
+
+                    indexedStrings.Remove(kvp.Key);
+                    indexedStrings.Add(kvp.Key, changed);
+
+                    //TODO HERE
+                }
+            }
         }
+    }
+
+    private static string getChangedInput()
+    {
+        string? change = "";
+
+        bool flag = false;
+        while (!flag)
+        {
+            change = Console.ReadLine();
+            if (change == null)
+            {
+                Console.WriteLine("Input empty!");
+                flag = false;
+            }
+            else if (!change.Contains(':'))
+            {
+                Console.WriteLine("Input must follow proper syntax! ie \"mod:item/subitem\"");
+                flag = false;
+            }
+            else
+                flag = true;
+        }
+
+        return "\"tag\": " + change;
     }
 
     private static void cleanupAndReplaceRecipes(string directory, List<Tag> tags)
