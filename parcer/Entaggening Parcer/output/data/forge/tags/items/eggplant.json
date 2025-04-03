@@ -3,10 +3,12 @@
 		[
 			"culturaldelights:cut_eggplant",
 			"culturaldelights:eggplant",
+			"culturaldelights:eggplant_seedss",
 			"culturaldelights:smoked_cut_eggplant",
 			"culturaldelights:smoked_eggplant",
 			"culturaldelights:smoked_white_eggplant",
 			"culturaldelights:white_eggplant",
-			"dumplings_delight:eggplant"
+			"dumplings_delight:eggplant",
+			"dumplings_delight:eggplant_seedss"
 		]
 }

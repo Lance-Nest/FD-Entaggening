@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wolfe\\Documents\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj": {}
+    "C:\\Users\\dnann\\OneDrive\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wolfe\\Documents\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj": {
+    "C:\\Users\\dnann\\OneDrive\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wolfe\\Documents\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj",
+        "projectUniqueName": "C:\\Users\\dnann\\OneDrive\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj",
         "projectName": "Entaggening Parcer",
-        "projectPath": "C:\\Users\\wolfe\\Documents\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj",
-        "packagesPath": "C:\\Users\\wolfe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wolfe\\Documents\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\obj\\",
+        "projectPath": "C:\\Users\\dnann\\OneDrive\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\Entaggening Parcer.csproj",
+        "packagesPath": "C:\\Users\\dnann\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dnann\\OneDrive\\Documents\\GitHub\\FD-Entaggening\\parcer\\Entaggening Parcer\\Entaggening Parcer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\wolfe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dnann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -55,30 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

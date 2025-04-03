@@ -32,8 +32,7 @@
 			"hostiledelight:guardiansandwich",
 			"hostiledelight:turtleeggsandwich",
 			"italian_delight:mozzarella_panini",
-			"seeddelight:cherry_jam_sandwich",
-			"seeddelight:rosehip_jam_sandwich",
-			"sweetdelight:honey_sandwich"
+			"seedsdelight:cherry_jam_sandwich",
+			"seedsdelight:rosehip_jam_sandwich"
 		]
 }

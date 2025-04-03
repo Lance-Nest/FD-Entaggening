@@ -48,6 +48,7 @@
 			"extradelight:grilled_corn_on_cob",
 			"extradelight:roasted_apple",
 			"extradelight:roasted_carrot",
+			"extradelight:roasted_pumpkin_seedss",
 			"farmersdelight:cooked_bacon",
 			"farmersdelight:cooked_rice",
 			"farmersdelight:fried_egg",
@@ -71,9 +72,8 @@
 			"rusticdelight:roasted_bell_pepper_green",
 			"rusticdelight:roasted_bell_pepper_red",
 			"rusticdelight:roasted_bell_pepper_yellow",
-			"seeddelight:fried_sunflower_seed",
+			"seedsdelight:fried_sunflower_seeds",
 			"tofucraft:edamame_boild",
-			"tofucraft:tofuhamburg",
-			"usadelight:cooked_sausages"
+			"tofucraft:tofuhamburg"
 		]
 }

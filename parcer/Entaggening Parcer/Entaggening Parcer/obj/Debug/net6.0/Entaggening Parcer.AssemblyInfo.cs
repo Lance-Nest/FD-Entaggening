@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Entaggening Parcer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+161da1bb85213a86e8fc566417f7567d3edf9a1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a89fca9e60beff5c55808b48483009a32565ea66")]
 [assembly: System.Reflection.AssemblyProductAttribute("Entaggening Parcer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Entaggening Parcer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

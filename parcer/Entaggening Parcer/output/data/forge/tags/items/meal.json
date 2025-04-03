@@ -1,8 +1,6 @@
 {
 	"values":  
 		[
-			"brewinandchewin:cheesy_pasta",
-			"brewinandchewin:creamy_onion_soup",
 			"brewinandchewin:fiery_fondue",
 			"brewinandchewin:ham_and_cheese_sandwich",
 			"brewinandchewin:horror_lasagna",
@@ -580,15 +578,14 @@
 			"rusticdelight:stuffed_bell_pepper_red",
 			"rusticdelight:stuffed_bell_pepper_yellow",
 			"rusticdelight:vegetable_pancakes",
-			"seeddelight:cherry_jam_sandwich",
-			"seeddelight:cherry_pork",
-			"seeddelight:pinenut_gruel",
-			"seeddelight:pinenut_with_meatballs",
-			"seeddelight:roasted_beef_with_seed",
-			"seeddelight:rosehip_jam_sandwich",
-			"seeddelight:stir_fried_cabbage_with_acorn",
-			"seeddelight:sunflower_seed_crisp",
-			"sweetdelight:honey_sandwich",
+			"seedsdelight:cherry_jam_sandwich",
+			"seedsdelight:cherry_pork",
+			"seedsdelight:pinenut_gruel",
+			"seedsdelight:pinenut_with_meatballs",
+			"seedsdelight:roasted_beef_with_seeds",
+			"seedsdelight:rosehip_jam_sandwich",
+			"seedsdelight:stir_fried_cabbage_with_acorn",
+			"seedsdelight:sunflower_seeds_crisp",
 			"tofucraft:agedashi_tofu",
 			"tofucraft:apricotjerry_bread",
 			"tofucraft:chikuwa",
@@ -634,7 +631,6 @@
 			"tofucraft:tttburger",
 			"tofucraft:yakionigiri_miso",
 			"tofucraft:yakionigiri_shoyu",
-			"tofucraft:yudofu",
-			"usadelight:hotdog"
+			"tofucraft:yudofu"
 		]
 }

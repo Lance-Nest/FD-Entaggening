@@ -1,7 +1,6 @@
 {
 	"values":  
 		[
-			"brewinandchewin:dread_nog",
 			"brewinandchewin:egg_grog",
 			"brewinandchewin:glittering_grenadine",
 			"brewinandchewin:kombucha",
@@ -127,8 +126,8 @@
 			"oceanic_delight:sea_grape_juice",
 			"pineapple_delight:pineapple_juice",
 			"pineapple_delight:pineapple_milk_shake",
-			"seeddelight:cherry_wine",
-			"seeddelight:pine_needle_wine",
-			"seeddelight:rosehip_tea"
+			"seedsdelight:cherry_wine",
+			"seedsdelight:pine_needle_wine",
+			"seedsdelight:rosehip_tea"
 		]
 }

@@ -226,7 +226,8 @@ class Program
 
     private static void ManualReview(string directory)
     {
-        string[] recipeFiles = Directory.GetFiles(directory, "*.json", SearchOption.AllDirectories);
+        List<string> recipeFiles = Directory.GetFiles(directory, "*.json", SearchOption.AllDirectories).ToList();
+        recipeFiles.RemoveAll(s => s.Contains("\\tags\\"));
 
         int c = 0;
         foreach (string file in recipeFiles)
@@ -234,7 +235,7 @@ class Program
             c++;
             Console.Clear();
 
-            Console.WriteLine(c + "/" + recipeFiles.Length + "\t" + file);
+            Console.WriteLine(c + "/" + recipeFiles.Count + "\t" + file);
 
             IEnumerable<string> s = File.ReadLines(file);
             Dictionary<int, string> indexedStrings = new Dictionary<int, string>();
@@ -261,7 +262,7 @@ class Program
                 int i = 0;
                 if (int.TryParse(input, out i))
                 {
-                    Console.Clear();
+                    //Console.Clear();
                     Console.WriteLine("Change the following to?");
                     Console.WriteLine(indexedStrings.ElementAt(i-1).Value);
                     Console.Write("\"tag\": ");

@@ -42,3 +42,4 @@ C:\Users\wolfe\Documents\FD-Entaggening\parcer\Entaggening Parcer\Entaggening Pa
 C:\Users\wolfe\Documents\FD-Entaggening\parcer\Entaggening Parcer\Entaggening Parcer\obj\Debug\net6.0\Entaggening Parcer.pdb
 C:\Users\wolfe\Documents\FD-Entaggening\parcer\Entaggening Parcer\Entaggening Parcer\obj\Debug\net6.0\Entaggening Parcer.genruntimeconfig.cache
 C:\Users\wolfe\Documents\FD-Entaggening\parcer\Entaggening Parcer\Entaggening Parcer\obj\Debug\net6.0\ref\Entaggening Parcer.dll
+C:\Users\dnann\OneDrive\Documents\GitHub\FD-Entaggening\parcer\Entaggening Parcer\Entaggening Parcer\obj\Debug\net6.0\Entaggening Parcer.sourcelink.json
